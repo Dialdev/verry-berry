@@ -1,0 +1,25 @@
+{% spaceless %}
+    {% if result.ITEMS %}
+        {% for faqSection in result.FAQ_LIST %}
+            <div class="faq__item">
+                <h2 class="faq__title">{{ faqSection['SECTION']['NAME'] }}</h2>
+                <div class="faq__list">
+                    {% for faqItem in faqSection.ITEMS %}
+                        <div class="faq__listItem">
+                            <div class="pane faqItem">
+                                <div class="pane__header">
+                                    <div class="faqItem__title">{{ faqItem['NAME'] }}</div>
+                                </div>
+                                <div class="pane__content">
+                                    <div class="pane__contentInner">
+                                        {{ faqItem['PREVIEW_TEXT'] }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+{% endspaceless %}

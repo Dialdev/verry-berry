@@ -1,0 +1,16 @@
+{% spaceless %}
+    <div class="container">
+        <div class="navBreadcrumbs">
+            <a href="/">Главная</a>
+            {% for item in result %}
+                <div class="breadcrumbs__item">
+                    {% if item['LINK'] and not loop.last %}
+                        <a href="{{ item['LINK'] }}">{{ item['TITLE'] }}</a>
+                    {% else %}
+                        <span title="{{ item['TITLE'] }}">{{ item['TITLE'] }}</span>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endspaceless %}

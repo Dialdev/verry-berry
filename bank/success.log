@@ -1,0 +1,1325 @@
+24.07.2021 15:01:14 Array
+(
+)
+
+
+26.07.2021 15:49:06 Array
+(
+    [TransactionId] => 779289597
+    [Amount] => 3450.00
+    [Currency] => RUB
+    [PaymentAmount] => 3450.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2552
+    [AccountId] => kisik-90@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => kisik-90@mail.ru
+    [DateTime] => 2021-07-24 12:43:39
+    [IpAddress] => 213.87.138.96
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 415481
+    [CardLastFour] => 9091
+    [CardType] => Visa
+    [CardExpDate] => 11/23
+    [Issuer] => Joint Stock Company Alfa-Bank
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2552
+    [AuthCode] => 89F71F
+    [Token] => 854740808
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Премьер для мальчика","price":"3450.0000","quantity":1,"amount":3450,"vat":null}],"amounts":{"electronic":3450},"taxationSystem":1,"email":"kisik-90@mail.ru","phone":"79032885377"}}}
+    [TotalFee] => 103.50
+    [CardProduct] => N 
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 15:50:46 Array
+(
+    [TransactionId] => 779462176
+    [Amount] => 5200.00
+    [Currency] => RUB
+    [PaymentAmount] => 5200.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2555
+    [AccountId] => super.nusa@yandex.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-24 15:16:29
+    [IpAddress] => 37.146.197.36
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 547127
+    [CardLastFour] => 0239
+    [CardType] => MasterCard
+    [CardExpDate] => 06/23
+    [Issuer] => TINKOFF BANK
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2555
+    [AuthCode] => 095862
+    [Token] => 854838452
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"4 Шоколада","price":"2700.0000","quantity":1,"amount":2700,"vat":null},{"label":"Премьер","price":"1700.0000","quantity":1,"amount":1700,"vat":null}],"amounts":{"electronic":5200},"taxationSystem":1,"email":"super.nusa@yandex.ru","phone":"79164060260"}}}
+    [TotalFee] => 156.00
+    [CardProduct] => TNW
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 15:59:45 Array
+(
+    [TransactionId] => 780402607
+    [Amount] => 9045.00
+    [Currency] => RUB
+    [PaymentAmount] => 9045.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2559
+    [AccountId] => iyanel1@hotmail.com
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-25 12:01:51
+    [IpAddress] => 91.193.176.225
+    [IpCountry] => RU
+    [IpCity] => Якутск
+    [IpRegion] => Республика Саха (Якутия)
+    [IpDistrict] => Дальневосточный федеральный округ
+    [IpLatitude] => 62.039261
+    [IpLongitude] => 129.746399
+    [CardFirstSix] => 480114
+    [CardLastFour] => 2050
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2559
+    [AuthCode] => 286547
+    [Token] => 855337926
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Нежный шарм","price":"9170.0000","quantity":1,"amount":9170,"vat":null}],"amounts":{"electronic":9045},"taxationSystem":1,"email":"iyanel1@hotmail.com","phone":"79660960769"}}}
+    [TotalFee] => 271.35
+    [CardProduct] => C 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:04:45 Array
+(
+    [TransactionId] => 779838965
+    [Amount] => 6190.00
+    [Currency] => RUB
+    [PaymentAmount] => 6190.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2557
+    [AccountId] => olga_polu@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => olga_polu@mail.ru
+    [DateTime] => 2021-07-24 21:01:54
+    [IpAddress] => 46.242.11.34
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 533469
+    [CardLastFour] => 4840
+    [CardType] => MasterCard
+    [CardExpDate] => 10/24
+    [Issuer] => JOINT STOCK COMPANY "RUSSIAN STANDARD BANK"
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2557
+    [AuthCode] => 974678
+    [Token] => 855016600
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Шкатулка с розовыми розами  25 шт.","price":"6190.0000","quantity":1,"amount":6190,"vat":null}],"amounts":{"electronic":6190},"taxationSystem":1,"email":"olga_polu@mail.ru","phone":"79166851756"}}}
+    [TotalFee] => 185.70
+    [CardProduct] => MNW
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 16:06:06 Array
+(
+    [TransactionId] => 779307541
+    [Amount] => 4900.00
+    [Currency] => RUB
+    [PaymentAmount] => 4900.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2553
+    [AccountId] => rimmaart@inbox.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => rimmaart@inbox.ru
+    [DateTime] => 2021-07-24 13:00:39
+    [IpAddress] => 2.92.125.175
+    [IpCountry] => RU
+    [IpCity] => Саратов
+    [IpRegion] => Саратовская область
+    [IpDistrict] => Приволжский федеральный округ
+    [IpLatitude] => 51.533268
+    [IpLongitude] => 46.03455
+    [CardFirstSix] => 427640
+    [CardLastFour] => 9263
+    [CardType] => Visa
+    [CardExpDate] => 12/22
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2553
+    [AuthCode] => 277462
+    [Token] => 854751828
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Премьер","price":"3450.0000","quantity":1,"amount":3450,"vat":null},{"label":"Сет \"Мини нежность\"","price":"1050.0000","quantity":1,"amount":1050,"vat":null}],"amounts":{"electronic":4900},"taxationSystem":1,"email":"rimmaart@inbox.ru","phone":"79851801609"}}}
+    [TotalFee] => 147.00
+    [CardProduct] => F 
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 16:12:52 Array
+(
+    [TransactionId] => 780733159
+    [Amount] => 15590.00
+    [Currency] => RUB
+    [PaymentAmount] => 15590.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 305
+    [AccountId] => blaquerosebookings9@gmail.com
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => blaquerosebookings9@gmail.com
+    [DateTime] => 2021-07-25 16:47:04
+    [IpAddress] => 174.249.80.19
+    [IpCountry] => US
+    [IpCity] => 
+    [IpRegion] => 
+    [IpDistrict] => 
+    [IpLatitude] => 37.751
+    [IpLongitude] => -97.822
+    [CardFirstSix] => 410631
+    [CardLastFour] => 3819
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => M&T Bank
+    [IssuerBankCountry] => US
+    [Description] => корзина  с клубникой в шоколаде и розами
+    [AuthCode] => 049099
+    [Token] => 855524298
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"customerReceipt":{"items":[{"Label":"Корзина с клубникой в шоколаде ","Price":14990.0,"Quantity":1.0,"Amount":14990.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null},{"Label":"Доставка ","Price":600.0,"Quantity":1.0,"Amount":600.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null}],"isBso":false,"taxationSystem":null,"Email":"blaquerosebookings9@gmail.com","Phone":null},"email":"blaquerosebookings9@gmail.com","Phone":null}}
+    [TotalFee] => 763.91
+    [CardProduct] => F 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:13:45 Array
+(
+    [TransactionId] => 780906611
+    [Amount] => 4810.00
+    [Currency] => RUB
+    [PaymentAmount] => 4810.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2561
+    [AccountId] => irinajirik@rambler.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => irinajirik@rambler.ru
+    [DateTime] => 2021-07-25 19:18:22
+    [IpAddress] => 37.146.69.106
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 548401
+    [CardLastFour] => 8910
+    [CardType] => MasterCard
+    [CardExpDate] => 03/24
+    [Issuer] => SBERBANK OF RUSSIA
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2561
+    [AuthCode] => 218263
+    [Token] => 855613816
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Майбах","price":"2990.0000","quantity":1,"amount":2990,"vat":null}],"amounts":{"electronic":4810},"taxationSystem":1,"email":"irinajirik@rambler.ru","phone":"79856904098"}}}
+    [TotalFee] => 144.30
+    [CardProduct] => MPL
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 16:15:52 Array
+(
+    [TransactionId] => 779386402
+    [Amount] => 4390.00
+    [Currency] => RUB
+    [PaymentAmount] => 4390.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 304
+    [AccountId] => 9163543376
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-24 14:10:39
+    [IpAddress] => 92.253.219.84
+    [IpCountry] => CZ
+    [IpCity] => Liberec
+    [IpRegion] => Liberec District
+    [IpDistrict] => Liberec District
+    [IpLatitude] => 50.7639
+    [IpLongitude] => 15.0653
+    [CardFirstSix] => 479584
+    [CardLastFour] => 1886
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => GazpromBank (Joint-Stock Company)
+    [IssuerBankCountry] => RU
+    [Description] => Люлечка с клубникой в шоколаде 
+    [AuthCode] => 539905
+    [Token] => 854796639
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"customerReceipt":{"items":[{"Label":"Люльечка с клубникой в шоколаде ","Price":3990.0,"Quantity":1.0,"Amount":3990.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null},{"Label":"Доставка ","Price":400.0,"Quantity":1.0,"Amount":400.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null}],"isBso":false,"taxationSystem":null,"Email":null,"Phone":"7 (916) 354-33-76"},"email":null,"Phone":"7 (916) 354-33-76"}}
+    [TotalFee] => 131.70
+    [CardProduct] => C 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:16:38 Array
+(
+    [TransactionId] => 781371884
+    [Amount] => 6740.00
+    [Currency] => RUB
+    [PaymentAmount] => 6740.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 306
+    [AccountId] => mvv_it@mail.ru
+    [SubscriptionId] => 
+    [Name] => VLADIMIR MANTSEVICH
+    [Email] => mvv_it@mail.ru
+    [DateTime] => 2021-07-26 08:55:17
+    [IpAddress] => 83.220.236.212
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 533594
+    [CardLastFour] => 0709
+    [CardType] => MasterCard
+    [CardExpDate] => 06/22
+    [Issuer] => AO RAIFFEISENBANK
+    [IssuerBankCountry] => RU
+    [Description] => Заказ 2564
+    [AuthCode] => 651895
+    [Token] => 855880655
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"customerReceipt":{"items":[{"Label":"Букет М+","Price":4490.0,"Quantity":1.0,"Amount":4490.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null},{"Label":"Доставка ","Price":2250.0,"Quantity":1.0,"Amount":2250.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null}],"isBso":false,"taxationSystem":null,"Email":"mvv_it@mail.ru","Phone":"89037220332"},"email":"mvv_it@mail.ru","Phone":"89037220332"}}
+    [TotalFee] => 202.20
+    [CardProduct] => WBE
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 16:19:07 Array
+(
+    [TransactionId] => 779289597
+    [Amount] => 3450.00
+    [Currency] => RUB
+    [PaymentAmount] => 3450.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2552
+    [AccountId] => kisik-90@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => kisik-90@mail.ru
+    [DateTime] => 2021-07-24 12:43:39
+    [IpAddress] => 213.87.138.96
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 415481
+    [CardLastFour] => 9091
+    [CardType] => Visa
+    [CardExpDate] => 11/23
+    [Issuer] => Joint Stock Company Alfa-Bank
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2552
+    [AuthCode] => 89F71F
+    [Token] => 854740808
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Премьер для мальчика","price":"3450.0000","quantity":1,"amount":3450,"vat":null}],"amounts":{"electronic":3450},"taxationSystem":1,"email":"kisik-90@mail.ru","phone":"79032885377"}}}
+    [TotalFee] => 103.50
+    [CardProduct] => N 
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 16:20:12 Array
+(
+    [TransactionId] => 781614450
+    [Amount] => 3450.00
+    [Currency] => RUB
+    [PaymentAmount] => 3450.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2569
+    [AccountId] => julia_andreevna31@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-26 13:20:12
+    [IpAddress] => 31.173.82.235
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 480111
+    [CardLastFour] => 8635
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2569
+    [AuthCode] => 239548
+    [Token] => 856064189
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"шоколадное удовольствие 25шт","price":"3050.0000","quantity":1,"amount":3050,"vat":null}],"amounts":{"electronic":3450},"taxationSystem":1,"email":"julia_andreevna31@mail.ru","phone":"79260628204"}}}
+    [TotalFee] => 103.50
+    [CardProduct] => F 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:20:52 Array
+(
+    [TransactionId] => 779462176
+    [Amount] => 5200.00
+    [Currency] => RUB
+    [PaymentAmount] => 5200.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2555
+    [AccountId] => super.nusa@yandex.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-24 15:16:29
+    [IpAddress] => 37.146.197.36
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 547127
+    [CardLastFour] => 0239
+    [CardType] => MasterCard
+    [CardExpDate] => 06/23
+    [Issuer] => TINKOFF BANK
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2555
+    [AuthCode] => 095862
+    [Token] => 854838452
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"4 Шоколада","price":"2700.0000","quantity":1,"amount":2700,"vat":null},{"label":"Премьер","price":"1700.0000","quantity":1,"amount":1700,"vat":null}],"amounts":{"electronic":5200},"taxationSystem":1,"email":"super.nusa@yandex.ru","phone":"79164060260"}}}
+    [TotalFee] => 156.00
+    [CardProduct] => TNW
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:21:20 Array
+(
+    [TransactionId] => 781614450
+    [Amount] => 3450.00
+    [Currency] => RUB
+    [PaymentAmount] => 3450.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2569
+    [AccountId] => julia_andreevna31@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-26 13:20:12
+    [IpAddress] => 31.173.82.235
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 480111
+    [CardLastFour] => 8635
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2569
+    [AuthCode] => 239548
+    [Token] => 856064189
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"шоколадное удовольствие 25шт","price":"3050.0000","quantity":1,"amount":3050,"vat":null}],"amounts":{"electronic":3450},"taxationSystem":1,"email":"julia_andreevna31@mail.ru","phone":"79260628204"}}}
+    [TotalFee] => 103.50
+    [CardProduct] => F 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:22:38 Array
+(
+    [TransactionId] => 781614450
+    [Amount] => 3450.00
+    [Currency] => RUB
+    [PaymentAmount] => 3450.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2569
+    [AccountId] => julia_andreevna31@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-26 13:20:12
+    [IpAddress] => 31.173.82.235
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 480111
+    [CardLastFour] => 8635
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2569
+    [AuthCode] => 239548
+    [Token] => 856064189
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"шоколадное удовольствие 25шт","price":"3050.0000","quantity":1,"amount":3050,"vat":null}],"amounts":{"electronic":3450},"taxationSystem":1,"email":"julia_andreevna31@mail.ru","phone":"79260628204"}}}
+    [TotalFee] => 103.50
+    [CardProduct] => F 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:24:43 Array
+(
+    [TransactionId] => 781614450
+    [Amount] => 3450.00
+    [Currency] => RUB
+    [PaymentAmount] => 3450.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2569
+    [AccountId] => julia_andreevna31@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-26 13:20:12
+    [IpAddress] => 31.173.82.235
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 480111
+    [CardLastFour] => 8635
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2569
+    [AuthCode] => 239548
+    [Token] => 856064189
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"шоколадное удовольствие 25шт","price":"3050.0000","quantity":1,"amount":3050,"vat":null}],"amounts":{"electronic":3450},"taxationSystem":1,"email":"julia_andreevna31@mail.ru","phone":"79260628204"}}}
+    [TotalFee] => 103.50
+    [CardProduct] => F 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:29:46 Array
+(
+    [TransactionId] => 781614450
+    [Amount] => 3450.00
+    [Currency] => RUB
+    [PaymentAmount] => 3450.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2569
+    [AccountId] => julia_andreevna31@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-26 13:20:12
+    [IpAddress] => 31.173.82.235
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 480111
+    [CardLastFour] => 8635
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2569
+    [AuthCode] => 239548
+    [Token] => 856064189
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"шоколадное удовольствие 25шт","price":"3050.0000","quantity":1,"amount":3050,"vat":null}],"amounts":{"electronic":3450},"taxationSystem":1,"email":"julia_andreevna31@mail.ru","phone":"79260628204"}}}
+    [TotalFee] => 103.50
+    [CardProduct] => F 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:29:52 Array
+(
+    [TransactionId] => 780402607
+    [Amount] => 9045.00
+    [Currency] => RUB
+    [PaymentAmount] => 9045.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2559
+    [AccountId] => iyanel1@hotmail.com
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-25 12:01:51
+    [IpAddress] => 91.193.176.225
+    [IpCountry] => RU
+    [IpCity] => Якутск
+    [IpRegion] => Республика Саха (Якутия)
+    [IpDistrict] => Дальневосточный федеральный округ
+    [IpLatitude] => 62.039261
+    [IpLongitude] => 129.746399
+    [CardFirstSix] => 480114
+    [CardLastFour] => 2050
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2559
+    [AuthCode] => 286547
+    [Token] => 855337926
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Нежный шарм","price":"9170.0000","quantity":1,"amount":9170,"vat":null}],"amounts":{"electronic":9045},"taxationSystem":1,"email":"iyanel1@hotmail.com","phone":"79660960769"}}}
+    [TotalFee] => 271.35
+    [CardProduct] => C 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:34:52 Array
+(
+    [TransactionId] => 779838965
+    [Amount] => 6190.00
+    [Currency] => RUB
+    [PaymentAmount] => 6190.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2557
+    [AccountId] => olga_polu@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => olga_polu@mail.ru
+    [DateTime] => 2021-07-24 21:01:54
+    [IpAddress] => 46.242.11.34
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 533469
+    [CardLastFour] => 4840
+    [CardType] => MasterCard
+    [CardExpDate] => 10/24
+    [Issuer] => JOINT STOCK COMPANY "RUSSIAN STANDARD BANK"
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2557
+    [AuthCode] => 974678
+    [Token] => 855016600
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Шкатулка с розовыми розами  25 шт.","price":"6190.0000","quantity":1,"amount":6190,"vat":null}],"amounts":{"electronic":6190},"taxationSystem":1,"email":"olga_polu@mail.ru","phone":"79166851756"}}}
+    [TotalFee] => 185.70
+    [CardProduct] => MNW
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 16:36:20 Array
+(
+    [TransactionId] => 779307541
+    [Amount] => 4900.00
+    [Currency] => RUB
+    [PaymentAmount] => 4900.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2553
+    [AccountId] => rimmaart@inbox.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => rimmaart@inbox.ru
+    [DateTime] => 2021-07-24 13:00:39
+    [IpAddress] => 2.92.125.175
+    [IpCountry] => RU
+    [IpCity] => Саратов
+    [IpRegion] => Саратовская область
+    [IpDistrict] => Приволжский федеральный округ
+    [IpLatitude] => 51.533268
+    [IpLongitude] => 46.03455
+    [CardFirstSix] => 427640
+    [CardLastFour] => 9263
+    [CardType] => Visa
+    [CardExpDate] => 12/22
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2553
+    [AuthCode] => 277462
+    [Token] => 854751828
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Премьер","price":"3450.0000","quantity":1,"amount":3450,"vat":null},{"label":"Сет \"Мини нежность\"","price":"1050.0000","quantity":1,"amount":1050,"vat":null}],"amounts":{"electronic":4900},"taxationSystem":1,"email":"rimmaart@inbox.ru","phone":"79851801609"}}}
+    [TotalFee] => 147.00
+    [CardProduct] => F 
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 16:39:52 Array
+(
+    [TransactionId] => 781614450
+    [Amount] => 3450.00
+    [Currency] => RUB
+    [PaymentAmount] => 3450.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2569
+    [AccountId] => julia_andreevna31@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-26 13:20:12
+    [IpAddress] => 31.173.82.235
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 480111
+    [CardLastFour] => 8635
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2569
+    [AuthCode] => 239548
+    [Token] => 856064189
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"шоколадное удовольствие 25шт","price":"3050.0000","quantity":1,"amount":3050,"vat":null}],"amounts":{"electronic":3450},"taxationSystem":1,"email":"julia_andreevna31@mail.ru","phone":"79260628204"}}}
+    [TotalFee] => 103.50
+    [CardProduct] => F 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:43:07 Array
+(
+    [TransactionId] => 780733159
+    [Amount] => 15590.00
+    [Currency] => RUB
+    [PaymentAmount] => 15590.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 305
+    [AccountId] => blaquerosebookings9@gmail.com
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => blaquerosebookings9@gmail.com
+    [DateTime] => 2021-07-25 16:47:04
+    [IpAddress] => 174.249.80.19
+    [IpCountry] => US
+    [IpCity] => 
+    [IpRegion] => 
+    [IpDistrict] => 
+    [IpLatitude] => 37.751
+    [IpLongitude] => -97.822
+    [CardFirstSix] => 410631
+    [CardLastFour] => 3819
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => M&T Bank
+    [IssuerBankCountry] => US
+    [Description] => корзина  с клубникой в шоколаде и розами
+    [AuthCode] => 049099
+    [Token] => 855524298
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"customerReceipt":{"items":[{"Label":"Корзина с клубникой в шоколаде ","Price":14990.0,"Quantity":1.0,"Amount":14990.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null},{"Label":"Доставка ","Price":600.0,"Quantity":1.0,"Amount":600.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null}],"isBso":false,"taxationSystem":null,"Email":"blaquerosebookings9@gmail.com","Phone":null},"email":"blaquerosebookings9@gmail.com","Phone":null}}
+    [TotalFee] => 763.91
+    [CardProduct] => F 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:43:52 Array
+(
+    [TransactionId] => 780906611
+    [Amount] => 4810.00
+    [Currency] => RUB
+    [PaymentAmount] => 4810.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2561
+    [AccountId] => irinajirik@rambler.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => irinajirik@rambler.ru
+    [DateTime] => 2021-07-25 19:18:22
+    [IpAddress] => 37.146.69.106
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 548401
+    [CardLastFour] => 8910
+    [CardType] => MasterCard
+    [CardExpDate] => 03/24
+    [Issuer] => SBERBANK OF RUSSIA
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2561
+    [AuthCode] => 218263
+    [Token] => 855613816
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Майбах","price":"2990.0000","quantity":1,"amount":2990,"vat":null}],"amounts":{"electronic":4810},"taxationSystem":1,"email":"irinajirik@rambler.ru","phone":"79856904098"}}}
+    [TotalFee] => 144.30
+    [CardProduct] => MPL
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 16:46:07 Array
+(
+    [TransactionId] => 779386402
+    [Amount] => 4390.00
+    [Currency] => RUB
+    [PaymentAmount] => 4390.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 304
+    [AccountId] => 9163543376
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-24 14:10:39
+    [IpAddress] => 92.253.219.84
+    [IpCountry] => CZ
+    [IpCity] => Liberec
+    [IpRegion] => Liberec District
+    [IpDistrict] => Liberec District
+    [IpLatitude] => 50.7639
+    [IpLongitude] => 15.0653
+    [CardFirstSix] => 479584
+    [CardLastFour] => 1886
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => GazpromBank (Joint-Stock Company)
+    [IssuerBankCountry] => RU
+    [Description] => Люлечка с клубникой в шоколаде 
+    [AuthCode] => 539905
+    [Token] => 854796639
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"customerReceipt":{"items":[{"Label":"Люльечка с клубникой в шоколаде ","Price":3990.0,"Quantity":1.0,"Amount":3990.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null},{"Label":"Доставка ","Price":400.0,"Quantity":1.0,"Amount":400.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null}],"isBso":false,"taxationSystem":null,"Email":null,"Phone":"7 (916) 354-33-76"},"email":null,"Phone":"7 (916) 354-33-76"}}
+    [TotalFee] => 131.70
+    [CardProduct] => C 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 16:46:43 Array
+(
+    [TransactionId] => 781371884
+    [Amount] => 6740.00
+    [Currency] => RUB
+    [PaymentAmount] => 6740.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 306
+    [AccountId] => mvv_it@mail.ru
+    [SubscriptionId] => 
+    [Name] => VLADIMIR MANTSEVICH
+    [Email] => mvv_it@mail.ru
+    [DateTime] => 2021-07-26 08:55:17
+    [IpAddress] => 83.220.236.212
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 533594
+    [CardLastFour] => 0709
+    [CardType] => MasterCard
+    [CardExpDate] => 06/22
+    [Issuer] => AO RAIFFEISENBANK
+    [IssuerBankCountry] => RU
+    [Description] => Заказ 2564
+    [AuthCode] => 651895
+    [Token] => 855880655
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"customerReceipt":{"items":[{"Label":"Букет М+","Price":4490.0,"Quantity":1.0,"Amount":4490.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null},{"Label":"Доставка ","Price":2250.0,"Quantity":1.0,"Amount":2250.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null}],"isBso":false,"taxationSystem":null,"Email":"mvv_it@mail.ru","Phone":"89037220332"},"email":"mvv_it@mail.ru","Phone":"89037220332"}}
+    [TotalFee] => 202.20
+    [CardProduct] => WBE
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 16:51:07 Array
+(
+    [TransactionId] => 779462176
+    [Amount] => 5200.00
+    [Currency] => RUB
+    [PaymentAmount] => 5200.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2555
+    [AccountId] => super.nusa@yandex.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-24 15:16:29
+    [IpAddress] => 37.146.197.36
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 547127
+    [CardLastFour] => 0239
+    [CardType] => MasterCard
+    [CardExpDate] => 06/23
+    [Issuer] => TINKOFF BANK
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2555
+    [AuthCode] => 095862
+    [Token] => 854838452
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"4 Шоколада","price":"2700.0000","quantity":1,"amount":2700,"vat":null},{"label":"Премьер","price":"1700.0000","quantity":1,"amount":1700,"vat":null}],"amounts":{"electronic":5200},"taxationSystem":1,"email":"super.nusa@yandex.ru","phone":"79164060260"}}}
+    [TotalFee] => 156.00
+    [CardProduct] => TNW
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 17:00:08 Array
+(
+    [TransactionId] => 780402607
+    [Amount] => 9045.00
+    [Currency] => RUB
+    [PaymentAmount] => 9045.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2559
+    [AccountId] => iyanel1@hotmail.com
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-25 12:01:51
+    [IpAddress] => 91.193.176.225
+    [IpCountry] => RU
+    [IpCity] => Якутск
+    [IpRegion] => Республика Саха (Якутия)
+    [IpDistrict] => Дальневосточный федеральный округ
+    [IpLatitude] => 62.039261
+    [IpLongitude] => 129.746399
+    [CardFirstSix] => 480114
+    [CardLastFour] => 2050
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2559
+    [AuthCode] => 286547
+    [Token] => 855337926
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Нежный шарм","price":"9170.0000","quantity":1,"amount":9170,"vat":null}],"amounts":{"electronic":9045},"taxationSystem":1,"email":"iyanel1@hotmail.com","phone":"79660960769"}}}
+    [TotalFee] => 271.35
+    [CardProduct] => C 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 17:04:52 Array
+(
+    [TransactionId] => 779838965
+    [Amount] => 6190.00
+    [Currency] => RUB
+    [PaymentAmount] => 6190.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2557
+    [AccountId] => olga_polu@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => olga_polu@mail.ru
+    [DateTime] => 2021-07-24 21:01:54
+    [IpAddress] => 46.242.11.34
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 533469
+    [CardLastFour] => 4840
+    [CardType] => MasterCard
+    [CardExpDate] => 10/24
+    [Issuer] => JOINT STOCK COMPANY "RUSSIAN STANDARD BANK"
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2557
+    [AuthCode] => 974678
+    [Token] => 855016600
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Шкатулка с розовыми розами  25 шт.","price":"6190.0000","quantity":1,"amount":6190,"vat":null}],"amounts":{"electronic":6190},"taxationSystem":1,"email":"olga_polu@mail.ru","phone":"79166851756"}}}
+    [TotalFee] => 185.70
+    [CardProduct] => MNW
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 17:10:07 Array
+(
+    [TransactionId] => 781614450
+    [Amount] => 3450.00
+    [Currency] => RUB
+    [PaymentAmount] => 3450.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2569
+    [AccountId] => julia_andreevna31@mail.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-26 13:20:12
+    [IpAddress] => 31.173.82.235
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 480111
+    [CardLastFour] => 8635
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => SBERBANK of Russia
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2569
+    [AuthCode] => 239548
+    [Token] => 856064189
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"шоколадное удовольствие 25шт","price":"3050.0000","quantity":1,"amount":3050,"vat":null}],"amounts":{"electronic":3450},"taxationSystem":1,"email":"julia_andreevna31@mail.ru","phone":"79260628204"}}}
+    [TotalFee] => 103.50
+    [CardProduct] => F 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 17:13:20 Array
+(
+    [TransactionId] => 780733159
+    [Amount] => 15590.00
+    [Currency] => RUB
+    [PaymentAmount] => 15590.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 305
+    [AccountId] => blaquerosebookings9@gmail.com
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => blaquerosebookings9@gmail.com
+    [DateTime] => 2021-07-25 16:47:04
+    [IpAddress] => 174.249.80.19
+    [IpCountry] => US
+    [IpCity] => 
+    [IpRegion] => 
+    [IpDistrict] => 
+    [IpLatitude] => 37.751
+    [IpLongitude] => -97.822
+    [CardFirstSix] => 410631
+    [CardLastFour] => 3819
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => M&T Bank
+    [IssuerBankCountry] => US
+    [Description] => корзина  с клубникой в шоколаде и розами
+    [AuthCode] => 049099
+    [Token] => 855524298
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"customerReceipt":{"items":[{"Label":"Корзина с клубникой в шоколаде ","Price":14990.0,"Quantity":1.0,"Amount":14990.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null},{"Label":"Доставка ","Price":600.0,"Quantity":1.0,"Amount":600.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null}],"isBso":false,"taxationSystem":null,"Email":"blaquerosebookings9@gmail.com","Phone":null},"email":"blaquerosebookings9@gmail.com","Phone":null}}
+    [TotalFee] => 763.91
+    [CardProduct] => F 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 17:14:07 Array
+(
+    [TransactionId] => 780906611
+    [Amount] => 4810.00
+    [Currency] => RUB
+    [PaymentAmount] => 4810.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2561
+    [AccountId] => irinajirik@rambler.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => irinajirik@rambler.ru
+    [DateTime] => 2021-07-25 19:18:22
+    [IpAddress] => 37.146.69.106
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 548401
+    [CardLastFour] => 8910
+    [CardType] => MasterCard
+    [CardExpDate] => 03/24
+    [Issuer] => SBERBANK OF RUSSIA
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2561
+    [AuthCode] => 218263
+    [Token] => 855613816
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"Майбах","price":"2990.0000","quantity":1,"amount":2990,"vat":null}],"amounts":{"electronic":4810},"taxationSystem":1,"email":"irinajirik@rambler.ru","phone":"79856904098"}}}
+    [TotalFee] => 144.30
+    [CardProduct] => MPL
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 17:16:20 Array
+(
+    [TransactionId] => 779386402
+    [Amount] => 4390.00
+    [Currency] => RUB
+    [PaymentAmount] => 4390.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 304
+    [AccountId] => 9163543376
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-24 14:10:39
+    [IpAddress] => 92.253.219.84
+    [IpCountry] => CZ
+    [IpCity] => Liberec
+    [IpRegion] => Liberec District
+    [IpDistrict] => Liberec District
+    [IpLatitude] => 50.7639
+    [IpLongitude] => 15.0653
+    [CardFirstSix] => 479584
+    [CardLastFour] => 1886
+    [CardType] => Visa
+    [CardExpDate] => 12/23
+    [Issuer] => GazpromBank (Joint-Stock Company)
+    [IssuerBankCountry] => RU
+    [Description] => Люлечка с клубникой в шоколаде 
+    [AuthCode] => 539905
+    [Token] => 854796639
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"customerReceipt":{"items":[{"Label":"Люльечка с клубникой в шоколаде ","Price":3990.0,"Quantity":1.0,"Amount":3990.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null},{"Label":"Доставка ","Price":400.0,"Quantity":1.0,"Amount":400.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null}],"isBso":false,"taxationSystem":null,"Email":null,"Phone":"7 (916) 354-33-76"},"email":null,"Phone":"7 (916) 354-33-76"}}
+    [TotalFee] => 131.70
+    [CardProduct] => C 
+    [PaymentMethod] => ApplePay
+)
+
+
+26.07.2021 17:16:44 Array
+(
+    [TransactionId] => 781371884
+    [Amount] => 6740.00
+    [Currency] => RUB
+    [PaymentAmount] => 6740.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 306
+    [AccountId] => mvv_it@mail.ru
+    [SubscriptionId] => 
+    [Name] => VLADIMIR MANTSEVICH
+    [Email] => mvv_it@mail.ru
+    [DateTime] => 2021-07-26 08:55:17
+    [IpAddress] => 83.220.236.212
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 533594
+    [CardLastFour] => 0709
+    [CardType] => MasterCard
+    [CardExpDate] => 06/22
+    [Issuer] => AO RAIFFEISENBANK
+    [IssuerBankCountry] => RU
+    [Description] => Заказ 2564
+    [AuthCode] => 651895
+    [Token] => 855880655
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"customerReceipt":{"items":[{"Label":"Букет М+","Price":4490.0,"Quantity":1.0,"Amount":4490.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null},{"Label":"Доставка ","Price":2250.0,"Quantity":1.0,"Amount":2250.0,"Vat":null,"VatCode":"NoNds","Method":"FullPrepayment","Object":"Commodity","MeasurementUnit":null,"AgentSign":null,"AgentData":{"AgentOperationName":null,"PaymentAgentPhone":null,"PaymentReceiverOperatorPhone":null,"TransferOperatorPhone":null,"TransferOperatorName":null,"TransferOperatorAddress":null,"TransferOperatorInn":null},"PurveyorData":{"Phone":null,"Name":null,"Inn":null},"CalculationPlace":null,"AdditionalPositionInfo":null,"Department":null,"EAN13":null,"Code":null,"CalcVat":null,"VatDescription":null,"MethodName":null,"ObjectName":null,"AgentDescription":null,"Excise":null,"CountryOriginCode":null,"CustomsDeclarationNumber":null,"ProductCodeData":null,"SaleObjectData":null}],"isBso":false,"taxationSystem":null,"Email":"mvv_it@mail.ru","Phone":"89037220332"},"email":"mvv_it@mail.ru","Phone":"89037220332"}}
+    [TotalFee] => 202.20
+    [CardProduct] => WBE
+    [PaymentMethod] => 
+)
+
+
+26.07.2021 17:21:07 Array
+(
+    [TransactionId] => 779462176
+    [Amount] => 5200.00
+    [Currency] => RUB
+    [PaymentAmount] => 5200.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 2555
+    [AccountId] => super.nusa@yandex.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 
+    [DateTime] => 2021-07-24 15:16:29
+    [IpAddress] => 37.146.197.36
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Центральный федеральный округ
+    [IpLatitude] => 55.755787
+    [IpLongitude] => 37.617634
+    [CardFirstSix] => 547127
+    [CardLastFour] => 0239
+    [CardType] => MasterCard
+    [CardExpDate] => 06/23
+    [Issuer] => TINKOFF BANK
+    [IssuerBankCountry] => RU
+    [Description] => Оплата заказа №2555
+    [AuthCode] => 095862
+    [Token] => 854838452
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {"cloudPayments":{"CustomerReceipt":{"Items":[{"label":"4 Шоколада","price":"2700.0000","quantity":1,"amount":2700,"vat":null},{"label":"Премьер","price":"1700.0000","quantity":1,"amount":1700,"vat":null}],"amounts":{"electronic":5200},"taxationSystem":1,"email":"super.nusa@yandex.ru","phone":"79164060260"}}}
+    [TotalFee] => 156.00
+    [CardProduct] => TNW
+    [PaymentMethod] => ApplePay
+)
+
+

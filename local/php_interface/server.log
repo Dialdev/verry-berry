@@ -1,0 +1,60 @@
+Array
+(
+    [PHPRC] => /var/www/u1149019/data/php-bin-isp-php74
+    [PHP_INI_SCAN_DIR] => /var/www/u1149019/data/php-bin-isp-php74/veryberrylab.ru:
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+    [PWD] => /var/www/php-bin-isp-php74/u1149019/veryberrylab.ru
+    [SHLVL] => 0
+    [SCRIPT_NAME] => /bitrix/urlrewrite.php
+    [REQUEST_URI] => /api/v1/user/
+    [QUERY_STRING] => 
+    [REQUEST_METHOD] => POST
+    [SERVER_PROTOCOL] => HTTP/1.0
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [REDIRECT_URL] => /api/v1/user/
+    [REMOTE_PORT] => 37870
+    [SCRIPT_FILENAME] => /var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php
+    [SERVER_ADMIN] => webmaster@veryberrylab.ru
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/u1149019/data/www/veryberrylab.ru/htdocs
+    [CONTEXT_PREFIX] => 
+    [REQUEST_SCHEME] => http
+    [DOCUMENT_ROOT] => /var/www/u1149019/data/www/veryberrylab.ru/htdocs
+    [REMOTE_ADDR] => 46.242.14.178
+    [SERVER_PORT] => 80
+    [SERVER_ADDR] => 127.0.0.1
+    [SERVER_NAME] => veryberrylab.ru
+    [SERVER_SOFTWARE] => Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16
+    [SERVER_SIGNATURE] => 
+    [HTTP_COOKIE] => BITRIX_SM_location_type=%D0%B3; tmr_lvid=60ec9449d2c01cb177c5d03d1aa4a423; tmr_lvidTS=1624004280321; _gid=GA1.2.1656735747.1670878719; _ym_uid=1624004282202547446; _ym_d=1670878719; _ym_isad=2; BX_USER_ID=ba82066daecab10b9d95032a26d277ba; locationSelected=1; BITRIX_SM_location_accept=Y; BITRIX_CONVERSION_CONTEXT_s1=%7B%22ID%22%3A4%2C%22EXPIRE%22%3A1670965140%2C%22UNIQUE%22%3A%5B%22conversion_visit_day%22%5D%7D; BITRIX_SM_location_code=c2deb16a-0330-4f05-821f-1d09c93331e6; BITRIX_SM_location_name=%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3; BITRIX_SM_SALE_UID=90692; PHPSESSID=98c77a75f5f1c69babc74e0aff2a5219; _ym_visorc=w; _ga=GA1.2.2051089179.1670878719; tmr_detect=0%7C1670933400899; _ga_SV4ZPV0DM8=GS1.1.1670933172.2.1.1670933459.60.0.0
+    [HTTP_ACCEPT_LANGUAGE] => ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+    [HTTP_REFERER] => https://veryberrylab.ru/personal/order/make/
+    [HTTP_SEC_FETCH_DEST] => empty
+    [HTTP_SEC_FETCH_MODE] => cors
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_ORIGIN] => https://veryberrylab.ru
+    [HTTP_SEC_CH_UA_PLATFORM] => "Android"
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Linux; Android 7.0; SM-G925F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36
+    [HTTP_SEC_CH_UA_MOBILE] => ?1
+    [CONTENT_TYPE] => application/json;charset=UTF-8
+    [HTTP_ACCEPT] => application/json, text/plain, */*
+    [HTTP_SEC_CH_UA] => "Not?A_Brand";v="8", "Chromium";v="108", "Google Chrome";v="108"
+    [CONTENT_LENGTH] => 132
+    [HTTP_CONNECTION] => close
+    [HTTP_X_FORWARDED_PORT] => 443
+    [HTTP_X_FORWARDED_PROTO] => https
+    [HTTP_HOST] => veryberrylab.ru
+    [PERL5LIB] => /usr/share/awstats/lib:/usr/share/awstats/plugins
+    [REMOTE_USER] => 
+    [UNIQUE_ID] => Y5hr1Ogo3pz70sfYHS2WAAAAAAk
+    [HTTPS] => on
+    [REDIRECT_STATUS] => 200
+    [REDIRECT_PERL5LIB] => /usr/share/awstats/lib:/usr/share/awstats/plugins
+    [REDIRECT_UNIQUE_ID] => Y5hr1Ogo3pz70sfYHS2WAAAAAAk
+    [REDIRECT_HTTPS] => on
+    [FCGI_ROLE] => RESPONDER
+    [PHP_SELF] => /bitrix/urlrewrite.php
+    [REQUEST_TIME_FLOAT] => 1670933460.2632
+    [REQUEST_TIME] => 1670933460
+    [REAL_FILE_PATH] => /api/v1/index.php
+)

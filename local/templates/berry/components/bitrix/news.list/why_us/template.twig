@@ -1,0 +1,14 @@
+{% spaceless %}
+    {% for item in result['ITEMS'] %}
+        <div class="whyUsList__item">
+            <div class="whyUsItem" style="--color: #{{ item['PROPERTIES']['BACKGROUND']['VALUE'] }}">
+                <div class="whyUsItem__inner">
+                    <div class="whyUsItem__icon">
+                        {{ item['PROPERTIES']['SVG']['~VALUE']['TEXT'] }}
+                    </div>
+                    <div class="whyUsItem__title">{{ item['~NAME'] }}</div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+{% endspaceless %}

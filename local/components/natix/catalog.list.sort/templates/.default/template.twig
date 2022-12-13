@@ -1,0 +1,13 @@
+{% spaceless %}
+    {% if result['ITEMS'] %}
+        <div data-move="catalog-sort-get">
+            <label for="catalog-sort" class="sr-only">Сортировать по</label>
+            <select id="catalog-sort" class="select js-catalog-sort" data-class="select-second catalog-sort-select">
+                <option disabled>Сортировать по</option>
+                {% for item in result['ITEMS'] %}
+                    <option value="{{ item['url'] }}"{{ item['is_selected'] ? ' selected' }}>{{ item['name'] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    {% endif %}
+{% endspaceless %}

@@ -1,0 +1,54 @@
+{% spaceless %}
+    {% if result['IMAGES'] %}
+        <div class="container">
+            <div class="gallery">
+                <h2 class="h1">Наш магазин</h2>
+                
+                {% for block in result['IMAGES'] %}
+                    <div class="gallery__innerWrap">
+                        <div class="gallery__inner">
+                            <div class="gallery__items">
+                                {% for imageSrc in block %}
+                                    {% set class_modifier = '' %}
+                                    {% if loop.index == 3 %}{% set class_modifier = ' gallery__item_h2' %}{% endif %}
+                                    {% if loop.index == 5 %}{% set class_modifier = ' gallery__item_w2' %}{% endif %}
+                                    {% if loop.index == 6 %}{% set class_modifier = ' gallery__item_last' %}{% endif %}
+                                    <div class="gallery__item{{ class_modifier }}" data-micromodal-trigger="modal-gallery">
+                                        <img src="{{ imageSrc }}" alt="">
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="modal modal_gallery micromodal-slide" aria-hidden="true" id="modal-gallery">
+                <div class="modal__overlay" tabindex="-1">
+                    <div class="modal__container" data-micromodal-close="data-micromodal-close">
+                        <div class="modal__inner" role="dialog" aria-modal="true" aria-labelledby="modal-gallery">
+                            <button class="modal__close" aria-label="Закрыть окно" data-micromodal-close="data-micromodal-close"></button>
+                            <header class="modal__header"></header>
+                            <main class="modal__content" role="main">
+                                <div class="slider-modal-gallery swiper-container">
+                                    <div class="swiper-wrapper">
+                                        {% for block in result['IMAGES'] %}
+                                            {% for imageSrc in block %}
+                                                <div class="swiper-slide"><img src="{{ imageSrc }}" alt=""></div>
+                                            {% endfor %}
+                                        {% endfor %}
+                                    </div>
+                                    <div class="swiper-navigation">
+                                        <div class="swiper-button-prev"></div>
+                                        <div class="swiper-button-next"></div>
+                                    </div>
+                                </div>
+                            </main>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+    {% endif %}
+{% endspaceless %}

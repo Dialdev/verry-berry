@@ -1,0 +1,19 @@
+{% spaceless %}
+    {% if result.ITEMS %}
+        <div class="b-payment__item">
+            <div class="b-payment__title">Принимаем к оплате</div>
+            <div class="payment-cards">
+                {% for item in result.ITEMS %}
+                    <div class="payment-cards__item">
+                        <div class="payment-cards__icon{{ item['CODE'] == 'purse' ? ' payment-cards__icon_purse' }}">
+                            {{ item['PREVIEW_TEXT'] }}
+                            {% if item['CODE'] == 'purse' %}
+                                <div class="payment-cards__text">{{ item['~NAME'] }}</div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

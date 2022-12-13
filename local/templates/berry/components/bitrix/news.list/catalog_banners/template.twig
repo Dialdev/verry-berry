@@ -1,0 +1,10 @@
+{% spaceless %}
+    {% for banner in result['ITEMS'] %}
+        {% set picture = banner['PREVIEW_PICTURE'] %}
+        <a class="flowItem flowItem_purple {{ banner['PROPERTIES']['BACKGROUND']['VALUE_XML_ID'] }}" href="{{ banner['PROPERTIES']['LINK']['VALUE'] }}">
+            <img class="flowItem__img" src="{{ picture['SRC'] }}" alt="{{ banner['NAME'] }}" role="presentation" />
+            <span class="flowItem__desc">{{ banner['PREVIEW_TEXT'] }}</span>
+            <span class="flowItem__title">{{ banner['~NAME'] }}</span>
+        </a>
+    {% endfor %}
+{% endspaceless %}

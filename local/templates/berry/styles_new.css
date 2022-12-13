@@ -1,0 +1,472 @@
+.navMain a{
+	margin-right:1.72rem;
+	text-align:center;
+}
+.navMain__inner{
+	align-items: center;
+}
+.form-submits_modal .button-link{
+	font-size: 1rem;
+	font-family: "PT Root UI",sans-serif;
+	color: #8c909b;
+}
+.nav-lk__item:last-child .nav-lk__icon svg{
+position:relative;
+left:6px;
+}
+.header__user{
+	flex-direction: column;
+	align-items: flex-end;
+	line-height: 1;
+}
+.user-bonus{
+	display: block;
+	position: relative;
+	top: 3px;
+	font-weight: 700;
+	font-size: 11px;
+	padding: 0 0 0 13px;
+}
+.user-bonus:after{
+	content: "";
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 9px;
+	height: 12px;
+	background: url('/local/templates/berry/img/strawberry-icon.svg') 0 0 no-repeat;
+	background-size: cover;
+	z-index: 1;
+}
+.user-bonus__count{
+	color: #D34F50;
+}
+.productTopSum{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.productTopSum__bonus-count{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	font-size: 2.1rem;
+	color: #808492;
+	font-weight: 700;
+	padding: 0 25px 0 0 ;
+}
+.productTopSum__bonus-count:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	right: 0;
+	width: 18px;
+	height: 24px;
+	background: url('/local/templates/berry/img/strawberry-icon.svg') 0 0 no-repeat;
+	background-size: cover;
+	z-index: 1;
+}
+.productTopSum__item--bonus .productTopSum__title{
+	display: flex;
+	align-items: center;
+}
+.bonusInfo-product{
+	position: relative;
+}
+.bonusInfo-product__btn{
+	width: 16px;
+	height: 16px;
+	background: url('/local/templates/berry/img/questions-icon.svg') 0 0 no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	display: block;
+}
+.productTopSum__label{
+	margin: 0 5px 0 0;
+}
+.bonusInfo-product__btn:hover + .bonusInfo-product__popup{
+	display: block;
+}
+.bonusInfo-product__popup{
+	position: absolute;
+	top: -36px;
+	left: 28px;
+	z-index: 5;
+	display: none;
+}
+.bonusInfo-product__inner{
+	position: relative;
+	min-width: 165px;
+	height: 100px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 22px;
+	box-shadow: 2px 4px 8px rgba(128, 132, 146, 0.17);
+	text-align: center;
+}
+.bonusInfo-product__inner:after{
+	content: "";
+	position: absolute;
+	top: 25px;
+	left: -8px;
+	width: 9px;
+	height: 40px;
+	background: url('/local/templates/berry/img/arrow-popup.svg') 0 0 no-repeat;
+	background-size: cover;
+	z-index: 1;
+}
+.bonusInfo-product__content{
+	font-size: 13px;
+	line-height: 16px;
+	color: #000;
+	font-weight: 400;
+}
+.bonusInfo-product__content p{
+	margin-bottom: 10px;
+}
+.bonusInfo-product__convert{
+	font-weight: 700;
+}
+.one-strawberry{
+	display: inline-block;
+	position: relative;
+	padding: 0 16px 0 0;
+}
+.one-strawberry:after{
+	content: "";
+	position: absolute;
+	top: -1px;
+	right: 0;
+	width: 12px;
+	height: 16px;
+	background: url('/local/templates/berry/img/strawberry-icon.svg') 0 0 no-repeat;
+	background-size: cover;
+	z-index: 1;
+}
+
+.express_delivery::after{
+    background: none !important;
+}
+
+.productTopSubmit__oneclick {
+    display: none;
+}
+
+@media (max-width:1366px){
+	.bonusInfo-product__popup{
+		left: inherit;
+		right: 100%;
+		margin: 0 12px 0 0;
+	}
+	.bonusInfo-product__inner::after{
+		left: initial;
+		right: -8px;
+		transform: rotateY(180deg);
+	}
+}
+@media (max-width:1199px){
+	.productTopSum__bonus-count{
+		font-size: 24px;
+	}
+	.productTopSum__bonus-count::after{
+		top: 6px;
+	}
+}
+@media (max-width:991px){
+	.productTopSum__item--bonus .productTopSum__title{
+		margin: 0;
+	}
+	.bonusInfo-product{
+		display: none;
+	}
+	.productTopSum{
+		display: block;
+	}
+	.productTopSum__item--bonus{
+		padding: 5px 0 0 0;
+	}
+}
+
+
+
+/*  o-nas */
+
+.o-nas-block {
+    display: flex;
+	flex-wrap: wrap;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    width: 100%;
+	margin-bottom: 1.6rem;
+}
+.o-nas-ris-max-div{
+	display: block;
+	position: relative;
+	float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    width: 100%;
+	overflow: hidden;
+}
+.w40{
+	display: block;
+	float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    width: 40%;
+}
+.w50{
+	display: block;
+	float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    width: 50%;
+}
+.w60{
+	display: block;
+	float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    width: 60%;
+}
+.w100{
+	display: block;
+	float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    width: 100%;
+}
+.s020-1,
+.s020-2
+{
+display: block;
+	float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    width: 100%;
+padding: 2rem;
+padding-top: 4rem;
+padding-bottom: 4rem;
+padding-left: 15%;
+padding-right: 10%;
+}
+
+.fonrser01{
+font-size: 1.2rem;
+color: #999DA7;
+}
+.padd1r{
+padding: 1rem;
+}
+.padd-left-right-1{
+padding-left: 1rem;
+padding-right: 1rem;
+}
+.padd-right-2{
+padding-right: 2rem;
+}
+.text-center{
+text-align: center !important;
+}
+.s020-1
+{
+padding-right: 20%;
+}
+.s020-2
+{
+padding-left: 30%;
+}
+
+.riskrug{
+	display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	position: absolute;
+	bottom: -110px;
+	right: -120px;
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+	/*overflow: none;*/
+}
+
+@media screen and (max-width: 1199.98px){
+	.w40,
+	.w50,
+	.w60
+	{
+		width: 100% !important;
+	}
+	.s020-1,
+	.s020-2
+	{
+		padding-left: 10% !important;
+		padding-right: 10% !important;
+	}
+	.riskrug{
+	top: -80px;
+	right: -80px;
+	width: 250px;
+	height: 250px;
+	z-index: 1;
+	}
+}
+
+
+.w33{
+	display: block;
+	float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    width: 33.33%;
+}
+.align-items-stretch{
+	display: flex !important;
+	align-items: stretch !important;
+}
+.align-items-center{
+	display: flex !important;
+	align-items: center !important;
+}
+.red01{
+color: red;
+}
+
+.delaza{
+	display: flex;
+	width: 100%;
+	background: silver;
+	border-radius: 10px;
+	padding: 1.6rem;
+	font-size: 2rem;
+}
+
+@media screen and (max-width: 1199.98px){
+	.delaza{
+	padding: 1.2rem;
+	font-size: 1.4rem;
+}
+}
+
+.o-nas-blockh3, 
+.o-nas-block .h3 {
+  font-family: "Gilroy",serif;
+  margin-bottom: 2rem;
+  line-height: 1.224138;
+  font-weight: 600;
+  font-size: 2.1rem;
+}
+
+.video-banner-container {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.video-banner-container img {
+    max-width: 400px;
+    max-height: 750px;
+    margin-right: 25px;
+}
+
+.video-banner-container video {
+    max-width: 400px;
+    max-height: 700px;
+}
+
+.video-banner-description-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
+    background: #ffaeb9;
+}
+
+.video-banner-description-title {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.video-banner-description-text {
+
+}
+
+.video-banner-description-text p {
+    font-size: 28px;
+    padding-right: 30px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1100px) {
+    .video-banner-container img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .video-banner-description-container {
+        display: block;
+    }
+
+    .video-banner-description-text {
+        display: none;
+    }
+}
+
+#phone-auth-error {
+    background-color: #f2dede;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    display: none;
+}
+
+#phone-auth-login {
+    display: none;
+}
+
+#phone-auth-code-block {
+    display: none;
+}
+
+#phone-auth-form label {
+    display: block;
+}
+
+.show-phone-auth-link-block {
+    margin-bottom: 10px;
+}
+
+#show-phone-auth-link {
+    margin-bottom: 20px;
+    color: #FF1493;
+    text-align: right;
+    font-size: 15px;
+}
+
+.sliderMain__img img, .sliderMain__img source {
+    object-fit: fill;
+}
+
+.social__icon__whatsapp{
+    padding-left: 10px;
+    padding-top: 2px;
+}

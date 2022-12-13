@@ -1,0 +1,37 @@
+{% spaceless %}
+    <div class="{% block item_modifier %}catalogItems__item{% endblock %}">
+        <div class="item">
+            <div class="item__inner">
+                {#<div class="b-labels">
+                    <div>
+                        <div class="b-labels__label b-labels__label_discount">Скидка</div>
+                    </div>
+                    <div>
+                        <div class="b-labels__label b-labels__label_hit">Хит</div>
+                    </div>
+                </div>#}
+                <div class="item__top">
+                    <a href="{{ item['URL'] }}">
+                        <img src="{{ item['IMAGE']['src'] }}">
+                    </a>
+                    {% if item['SIZE']['name'] %}
+                        <div class="item__size">{{ item['SIZE']['name'] }}</div>
+                    {% endif %}
+                </div>
+                <div class="item__content">
+                    <a class="item__title" href="{{ item['URL'] }}">
+                        <span>{{ item['NAME'] }}</span>
+                    </a>
+                    <div class="item__price is-red">{{ item['PRICES']['price_discount_format'] }}</div>
+                    {% if item['PRICES']['price'] > item['PRICES']['price_discount'] %}
+                        <div class="item__priceOld">{{ item['PRICES']['price_format'] }}</div>
+                    {% endif %}
+                    <div class="item__footer">
+                        <a href="{{ item['URL'] }}" class="item__submit">ПОДРОБНЕЕ</a>
+                        {#<div class="item__like"></div>#}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endspaceless %}

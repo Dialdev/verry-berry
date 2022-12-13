@@ -1,0 +1,27 @@
+{% spaceless %}
+    {% if result['shop'] %}
+        <div class="container">
+            <h1>Самовывоз</h1>
+            <div class="pickupTop">
+                <div class="pickupTop__item">
+                    <div class="workTimeTitle">{{ result['shop']['ADDRESS'] }}</div>
+                    <div class="workTime workTime_contact">
+                        <div class="workTime__list">
+                            {{ result['shop']['SCHEDULE'] }}
+                        </div>
+                    </div>
+                </div>
+                <div class="pickupTop__item">
+                    <div class="pickupTop__text">
+                        {{ result['shop']['DESCRIPTION'] }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mapY" id="contactMap" data-lat="{{ result['shop']['GPS_N'] }}" data-lng="{{ result['shop']['GPS_S'] }}" data-icon="iconPointCar"></div>
+    {% else %}
+        <div class="container">
+            Для текущего местоположения не найден магазин для самовывоза
+        </div>
+    {% endif %}
+{% endspaceless %}

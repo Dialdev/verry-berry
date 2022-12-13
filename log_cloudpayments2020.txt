@@ -1,0 +1,6 @@
+START!!!!
+HMACK_BAD!!!!
+fail
+START!!!!
+HMACK_BAD!!!!
+fail

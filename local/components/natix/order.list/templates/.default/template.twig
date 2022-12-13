@@ -1,0 +1,161 @@
+{% spaceless %}
+    {% if result.ITEMS %}
+        {% for arOrder in result.ITEMS %}
+            <div class="pane pane_lk">
+                <div class="pane__header">
+                    <div class="cart-lk">
+                        <div class="cart-lk__title"><span>Для:</span> {{ arOrder.PROPERTIES.RECIPIENT_NAME.VALUE }}</div>
+                        <div class="cart-lk__side">
+                            <div class="cart-lk__num"><span>№</span> {{ arOrder.ID }}</div>
+                            <div class="cart-lk__labels">
+                                <div class="cart-lk__label {{ arOrder.PAY_STATUS.CLASS }}">{{ arOrder.PAY_STATUS.NAME }}</div>
+                                <div class="cart-lk__label {{ arOrder.STATUS.CLASS }}">{{ arOrder.STATUS.NAME }}</div>
+                            </div>
+                            <div class="cart-lk__datePrice">
+                                <div class="cart-lk__date">{{ arOrder.DATE_INSERT_FORMATTED }}</div>
+                                <div class="cart-lk__price">{{ arOrder.PRICE_FORMATTED }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pane__content" style="--max-height:1214px;">
+                    <div class="pane__contentInner">
+                        <div class="cart-lk-list">
+                            <div class="cart-lk-list__item">
+                                <div class="cart-lk-item">
+                                    <div class="cart-lk-item__title">
+                                        <div class="cart-lk-item__step">1</div><span>Ваши контакты</span>
+                                    </div>
+                                    <div class="cart-lk-item__text">{{ arOrder.PROPERTIES.NAME.VALUE }}</div>
+                                    <div class="cart-lk-item__text">{{ arOrder.PROPERTIES.EMAIL.VALUE }}</div>
+                                    <div class="cart-lk-item__phone">{{ arOrder.PROPERTIES.PHONE.VALUE }}</div>
+                                    <div class="cart-lk-item__muted">{{ arOrder.PROPERTIES.DELIVERY_COMMENT.VALUE}}</div>
+                                </div>
+                                <div class="cart-lk-item">
+                                    <div class="cart-lk-item__title">
+                                        <div class="cart-lk-item__step">2</div><span>Получатель</span>
+                                    </div>
+                                    <div class="cart-lk-item__text">{{ arOrder.PROPERTIES.RECIPIENT_NAME.VALUE }}</div>
+                                    <div class="cart-lk-item__phone">{{ arOrder.PROPERTIES.RECIPIENT_PHONE.VALUE }}</div>
+                                    {% if arOrder.PROPERTIES.POSTCARD.VALUE %}
+                                    <div class="cart-lk-item__muted">Текст открытки:</div>
+                                    <div class="cart-lk-item__text">{{ arOrder.PROPERTIES.POSTCARD.VALUE }}</div>
+                                    {% endif %}
+                                    <div class="cart-lk-item__list">
+                                        {% if arOrder.PROPERTIES.RECIPIENT_MAKE_PHOTO.VALUE %}
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Сделать фото с получателем</div>
+                                            <div>{{ arOrder.PROPERTIES.RECIPIENT_MAKE_PHOTO.VALUE }}</div>
+                                        </div>
+                                        {% endif %}
+                                        {% if arOrder.PROPERTIES.IS_SURPRISE.VALUE %}
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Сюрприз, не звонить перед вручением</div>
+                                            <div>{{ arOrder.PROPERTIES.IS_SURPRISE.VALUE }}</div>
+                                        </div>
+                                        {% endif %}
+                                        {% if arOrder.PROPERTIES.ANONYMOUS_ORDER.VALUE %}
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Анонимный заказ</div>
+                                            <div>{{ arOrder.PROPERTIES.ANONYMOUS_ORDER.VALUE }}</div>
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                <div class="cart-lk-item">
+                                    <div class="cart-lk-item__title">
+                                        <div class="cart-lk-item__step">3</div><span>Адрес доставки</span>
+                                    </div>
+                                    <div class="cart-lk-item__text">{{ arOrder.ADDRESS }}</div>
+                                    <div class="cart-lk-item__list">
+                                        {% if arOrder.PROPERTIES.DISTANCE.VALUE %}
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Расстояние от МКАД</div>
+                                            <div>{{ arOrder.PROPERTIES.DISTANCE.VALUE }}</div>
+                                        </div>
+                                        {% endif %}
+                                        {% if arOrder.PRICE_DELIVERY_FORMATTED %}
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Стоимость доставки</div>
+                                            <div>{{ arOrder.PRICE_DELIVERY_FORMATTED}}</div>
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                <div class="cart-lk-item">
+                                    <div class="cart-lk-item__title">
+                                        <div class="cart-lk-item__step">4</div><span>Время доставки</span>
+                                    </div>
+                                    <div class="cart-lk-item__text">{{ arOrder.DELIVERY_DATE }}</div>
+                                    <div class="cart-lk-item__text">{{ arOrder.TIME}}</div>
+                                    <div class="cart-lk-item__list">
+                                        {% if arOrder.PRICE_DELIVERY_FORMATTED %}
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Стоимость доставки</div>
+                                            <div>{{ arOrder.PRICE_DELIVERY_FORMATTED}}</div>
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                <div class="cart-lk-item">
+                                    <div class="cart-lk-item__title">
+                                        <div class="cart-lk-item__step">5</div><span>Оплата</span>
+                                    </div>
+                                    <div class="cart-lk-item__list">
+                                        {% if arOrder.PAYMENT_INFO.PAY_SYSTEM_NAME %}
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Способ оплаты</div>
+                                            <div>{{ arOrder.PAYMENT_INFO.PAY_SYSTEM_NAME }}</div>
+                                        </div>
+                                        {% endif %}
+                                        {% if arOrder.PROPERTIES.SEND_PHOTO.VALUE %}
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Фото перед доставкой</div>
+                                            <div>{{ arOrder.PROPERTIES.SEND_PHOTO.VALUE }}</div>
+                                        </div>
+                                        {% endif %}
+                                    </div>
+                                    {% if arOrder.USER_DESCRIPTION %}
+                                    <div class="cart-lk-item__muted">Комментарий к заказу</div>
+                                    <div class="cart-lk-item__text">{{ arOrder.USER_DESCRIPTION }}</div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            <div class="cart-lk-list__item">
+                                <div class="cart-lk-item cart-lk-item_sum">
+                                    <div class="cart-lk-item__title">Состав заказа</div>
+                                    <div class="cart-lk-item__list">
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Товары</div>
+                                            <div>{{ arOrder.ITEM_PRICE_FORMATTED }}</div>
+                                        </div>
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Доставка</div>
+                                            <div>{{ arOrder.PRICE_DELIVERY_FORMATTED}}</div>
+                                        </div>
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Бонусы</div>
+                                            <div>{{ arOrder['BONUSES_FORMATTED'] }}</div>
+                                        </div>
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Промокод</div>
+                                            <div>{{ arOrder.COUPON_TEXT }}</div>
+                                        </div>
+                                        <div class="cart-lk-item__listItem">
+                                            <div>Карта партнёра</div>
+                                            <div>Не применялась</div>
+                                        </div>
+                                        <div class="cart-lk-item__listItem cart-lk-item__listItem_sum">
+                                            <div>Итого</div>
+                                            <div>{{ arOrder.PRICE_FORMATTED }}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+{% endspaceless %}

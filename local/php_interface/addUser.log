@@ -1,0 +1,24 @@
+Array
+(
+    [LID] => s1
+    [LOGIN] => tvd143@yandex.ru
+    [EMAIL] => tvd143@yandex.ru
+    [NAME] => Татьяна
+    [SECOND_NAME] => 
+    [LAST_NAME] => 
+    [PERSONAL_PHONE] => +7 916 495-60-98
+    [ACTIVE] => Y
+    [PASSWORD] => SZvuWIGlcbe3c5db2428df09bc5885ac4cc0fa57
+    [CONFIRM_PASSWORD] => 459407
+    [UF_PASSWORD] => 459407
+    [GROUP_ID] => Array
+        (
+            [0] => 
+        )
+
+    [PERSONAL_GENDER] => 
+    [CHECKWORD] => 820b74596290c50ad2adc1cf6e1b010e
+    [~CHECKWORD_TIME] => now()
+    [ID] => 10073
+    [RESULT] => 10073
+)

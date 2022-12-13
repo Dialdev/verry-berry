@@ -1,0 +1,11 @@
+{% spaceless %}
+    {% if result %}
+        <nav class="navMain">
+            <div class="navMain__inner">
+                {% for item in result %}
+                    <a href="{{ item.LINK }}">{{ item.TEXT }}</a>
+                {% endfor %}
+            </div>
+        </nav>
+    {% endif %}
+{% endspaceless %}

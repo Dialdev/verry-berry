@@ -1,0 +1,75 @@
+{% spaceless %}
+    {% for f in result['shops'] %}
+
+        <div class="container">
+            {% if f['SELECTED'] == 'Y' %}
+            <h1>Самовывоз</h1>
+            {% endif %}
+            <div class="pickupTop">
+                <div class="pickupTop__item">
+                    <div class="workTimeTitle">{{ f['ADDRESS'] }}</div>
+                    <div class="workTime workTime_contact">
+                        <div class="workTime__list">
+                            {{ f['SCHEDULE'] }}
+                        </div>
+                    </div>
+                </div>
+                <div class="pickupTop__item">
+                    <div class="pickupTop__text">
+                        {{ f['DESCRIPTION'] }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mapY" id="element_{{ f['GPS_N'] }}" data-id="{{ f['GPS_N'] }}" data-lat="{{ f['GPS_N'] }}"
+             data-iconSize="4"
+             data-lng="{{ f['GPS_S'] }}" data-icon="iconPointCar"></div>
+
+    {% endfor %}
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=109e4b66-0503-4da1-b84c-bc91501ea5fa&lang=ru_RU"
+            type="text/javascript">
+    </script>
+    <script>
+
+
+        document.addEventListener("DOMContentLoaded", () => {
+
+            ;
+            document.querySelectorAll('.mapY').forEach(
+                function (element) {
+                    console.log(element.dataset.lat);
+                    if (ymaps) {
+
+                        ymaps.ready(function () {
+
+
+                            var myMap = new ymaps.Map('element_' + element.dataset.lat, {
+                                    center: [Number(element.dataset.lat), Number(element.dataset.lng)],
+                                    controls: ["zoomControl", "geolocationControl"],
+                                    zoom: 14
+                                }, {
+                                    zoomControlSize: "small",
+                                    zoomControlPosition: {right: "20px"},
+                                    geolocationControlPosition: {right: "20px", top: "70px"}
+                                }),
+
+                                myPlacemark = new ymaps.Placemark(myMap.getCenter(), {}, {
+                                    iconLayout: "default#image",
+                                    iconImageHref: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzkiIGhlaWdodD0iMTAxIiB2aWV3Qm94PSIwIDAgNzkgMTAxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNNDAuOTA4MyAwLjAyNTcwNjNDNjAuNTgwOSAwLjcyOTc5MyA3Ni45MjM5IDE2LjM4NTQgNzguODEyIDM2LjM2OUM3OS4xOTc3IDQwLjM2NTcgNzguOTc0NCA0NC4yMzgyIDc4LjI4NDEgNDcuOTQ1Qzc4LjI4NDEgNDcuOTQ1IDc4LjIyMzIgNDguMzc5OSA3OC4wMjAyIDQ5LjIwODJDNzcuNDExMiA1MS45ODMyIDc2LjQ5NzYgNTQuNjc1MiA3NS4zNjA3IDU3LjIwMTdDNzEuNDAxOCA2Ni43NjkgNjIuMjQ1NiA4Mi43NzY2IDQxLjcwMDEgMTAwLjE5MkM0MC40NDE0IDEwMS4yNjkgMzguNTkzOSAxMDEuMjY5IDM3LjMxNDkgMTAwLjE5MkMxNi43Njk0IDgyLjc5NzMgNy42MTMyMSA2Ni43ODk3IDMuNjM0MDQgNTcuMTgxQzIuNDc2ODMgNTQuNjU0NSAxLjU4MzU1IDUxLjk4MzIgMC45NzQ0ODcgNDkuMTg3NUMwLjc5MTc3MSA0OC4zNzk5IDAuNzEwNTcxIDQ3LjkyNDMgMC43MTA1NzEgNDcuOTI0M0MwLjI0MzYyMiA0NS40MzkzIDAgNDIuODkyMiAwIDQwLjI4MjlDMCAxNy41NDUgMTguNDU0NCAtMC43ODE5MjIgNDAuOTA4MyAwLjAyNTcwNjNaIiBmaWxsPSIjRDUyQTNGIi8+CjxwYXRoIGQ9Ik02MS4yMTAyIDM0Ljk4NTdINTcuODIxMUM1Ny41NjI5IDM0Ljk4NTcgNTcuMzE0OCAzNS4wODU0IDU3LjEyODUgMzUuMjY0TDU2LjQwNSAzNS45NTdDNTUuMTg1NSAzMy4xMzUzIDUzLjQzNiAzMC4zNDQ5IDUxLjA3MyAyNy40NTYxQzQ5Ljc5NTYgMjUuODk1MSA0Ny45MDY2IDI1IDQ1Ljg4OTkgMjVIMzIuMzIxQzMwLjMwNCAyNSAyOC40MTUgMjUuODk1MiAyNy4xMzgzIDI3LjQ1NjJDMjQuNzAwNyAzMC40MzU5IDIyLjk4NiAzMy4xNTkgMjEuNzk1NCAzNS45NDcxTDIxLjA4MjYgMzUuMjY0QzIwLjg5NjMgMzUuMDg1NCAyMC42NDgxIDM0Ljk4NTcgMjAuMzg5OSAzNC45ODU3SDE3LjAwMUMxNi40NDgxIDM0Ljk4NTcgMTYgMzUuNDMzOCAxNiAzNS45ODY3VjM4LjMwMzhDMTYgMzguODMyMiAxNi40MTA4IDM5LjI2OTQgMTYuOTM4IDM5LjMwMjhMMjAuNDIxNSAzOS41MjIyQzE5Ljg5NTIgNDEuMDYwMiAxOS40ODQyIDQzLjM1MjEgMTkuNDg0MiA0Ni41ODQyQzE5LjQ4NDIgNDkuMzg4NyAyMC4wNDQ0IDUxLjIzMiAyMS4wMTkyIDUyLjQyNTNWNTcuODI0NUMyMS4wMTkyIDU4LjI4NzQgMjEuMzk0NiA1OC42NjI2IDIxLjg1NzUgNTguNjYyNkgyNS43MTM0QzI2LjE3NjYgNTguNjYyNiAyNi41NTIxIDU4LjI4NzQgMjYuNTUyMSA1Ny44MjQ1VjU0LjQ3MTdINTEuNjU5VjU3LjgyNDVDNTEuNjU5IDU4LjI4NzQgNTIuMDM0NSA1OC42NjI2IDUyLjQ5NzUgNTguNjYyNkg1Ni4zNTM0QzU2LjgxNjMgNTguNjYyNiA1Ny4xOTE4IDU4LjI4NzQgNTcuMTkxOCA1Ny44MjQ1VjUyLjQyNTNDNTguMTY2NCA1MS4yMzIgNTguNzI2OSA0OS4zODg3IDU4LjcyNjkgNDYuNTg0MkM1OC43MjY5IDQzLjM1MjEgNTguMzE1OSA0MS4wNjAyIDU3Ljc4OTYgMzkuNTIyMkw2MS4yNzMxIDM5LjMwMjhDNjEuODAwMiAzOS4yNjk0IDYyLjIxMSAzOC44MzIyIDYyLjIxMSAzOC4zMDM4VjM1Ljk4NjdDNjIuMjExIDM1LjQzMzggNjEuNzYzMSAzNC45ODU3IDYxLjIxMDIgMzQuOTg1N1pNMjkuOTk5MSAyOS43OTY0QzMwLjU3MTMgMjkuMDk3MSAzMS40MTc2IDI4LjY5NTkgMzIuMzIxIDI4LjY5NTlINDUuODg5OUM0Ni43OTMzIDI4LjY5NTkgNDcuNjM5OSAyOS4wOTcxIDQ4LjIxMiAyOS43OTY0QzQ5Ljg2NTEgMzEuODE3MyA1MS4xNzA3IDMzLjc1MTMgNTIuMTc5NyAzNS42Nzc4TDI2LjAwODIgMzUuNjgyN0MyNi45OTUxIDMzLjc5OSAyOC4zMDgxIDMxLjg2MzQgMjkuOTk5MSAyOS43OTY0Wk0yNy4xNDcxIDUwLjM3MTVDMjUuMjI3OSA1MC4zNzE1IDIzLjY3MjIgNDkuNzQ0NyAyMy42NzIyIDQ4LjIyNEMyMy42NzIyIDQ2LjcwMzUgMjQuMjM2NiA0NS40NzA1IDI2LjE1NTggNDUuNDcwNUMyOC4wNzQ5IDQ1LjQ3MDUgMzAuNjIxOCA0Ni43MDM1IDMwLjYyMTggNDguMjI0QzMwLjYyMTggNDkuNzQ0NiAyOS4wNjYgNTAuMzcxNSAyNy4xNDcxIDUwLjM3MTVaTTQyLjc0ODEgNTAuMDU0NkgzNS40NjMyQzM0LjM2NDkgNTAuMDU0NiAzMy40NzE1IDQ5LjE2MTIgMzMuNDcxNSA0OC4wNjMxQzMzLjQ3MTUgNDcuNzU1MSAzMy43MjEzIDQ3LjUwNTMgMzQuMDI5NSA0Ny41MDUzSDQ0LjE4MTlDNDQuNDkwMSA0Ny41MDUzIDQ0LjczOTYgNDcuNzU1MSA0NC43Mzk2IDQ4LjA2MzFDNDQuNzM5NiA0OS4xNjEzIDQzLjg0NjIgNTAuMDU0NiA0Mi43NDgxIDUwLjA1NDZaTTUxLjA2NCA1MC4zNzE1QzQ5LjE0NDkgNTAuMzcxNSA0Ny41ODkxIDQ5Ljc0NDcgNDcuNTg5MSA0OC4yMjRDNDcuNTg5MSA0Ni43MDM1IDUwLjEzNjMgNDUuNDcwNSA1Mi4wNTUxIDQ1LjQ3MDVDNTMuOTc0MyA0NS40NzA1IDU0LjUzODggNDYuNzAzNSA1NC41Mzg4IDQ4LjIyNEM1NC41Mzg4IDQ5Ljc0NDYgNTIuOTgzMiA1MC4zNzE1IDUxLjA2NCA1MC4zNzE1WiIgZmlsbD0iI0Y5RkFGQyIvPgo8L3N2Zz4K",
+                                    iconImageSize: [79, 101],
+                                    iconImageOffset: [-39.5, -101],
+                                });
+                            myMap.behaviors.disable("scrollZoom");
+                            myMap.geoObjects
+                                .add(myPlacemark)
+                        });
+
+
+                    }
+                }
+            )
+        });
+    </script>
+
+
+{% endspaceless %}

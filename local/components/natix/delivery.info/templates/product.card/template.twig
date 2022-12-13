@@ -1,0 +1,44 @@
+{% spaceless %}
+    {% set courier = result['delivery_by_group']['courier'] %}
+    <div class="productContent__title productContent__title_offset">О доставке</div>
+    <div class="listIcons2Wrapper">
+        <div class="listIcons2">
+            <div class="listIcons2__icon">
+                <svg width="23" height="30"><use xlink:href="#point"></use></svg>
+            </div>
+            <div class="listIcons2__content">
+                <div class="listIcons2__title">Самовывоз</div>
+                <div class="listIcons2__subtitle">Круглосуточно</div>
+            </div>
+        </div>
+        {#<div class="listIcons2">
+            <div class="listIcons2__icon">
+                <svg width="36" height="30"><use xlink:href="#car"></use></svg>
+            </div>
+            <div class="listIcons2__content">
+                <div class="listIcons2__title">Доставка</div>
+                <div class="listIcons2__subtitle">Ближайшая ПН Сен 30 16:00</div>
+            </div>
+        </div>#}
+    </div>
+    <div class="b-prices b-prices_product">
+        {% if courier['DELIVERY_MIN_PRICE_FORMAT'] %}
+            <div class="b-prices__item">
+                <div class="b-prices__title">Внутри МКАД (КАД)</div>
+                <div class="b-prices__price">{{ courier['DELIVERY_MIN_PRICE_FORMAT'] }}</div>
+            </div>
+        {% endif %}
+        {% if courier['PRICE_ZA_MKAD_FORMAT'] %}
+            <div class="b-prices__item">
+                <div class="b-prices__title">За пределами МКАД (КАД), за 1 км</div>
+                <div class="b-prices__price">{{ courier['PRICE_ZA_MKAD_FORMAT'] }}</div>
+            </div>
+        {% endif %}
+        {% if courier['PRICE_EXACT_FORMAT'] %}
+            <div class="b-prices__item">
+                <div class="b-prices__title">Доставка к точному времени</div>
+                <div class="b-prices__price">{{ courier['PRICE_EXACT_FORMAT'] }}</div>
+            </div>
+        {% endif %}
+    </div>
+{% endspaceless %}

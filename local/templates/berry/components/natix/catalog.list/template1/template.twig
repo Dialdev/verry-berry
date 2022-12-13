@@ -1,0 +1,33 @@
+{% spaceless %}
+    <div class="catalogItems">
+        {% if result['LIST'] %}
+            <div class="catalogItems__content js-catalog-list"
+                 data-ajax-param-name="{{ params['AJAX_PARAM_NAME'] }}"
+                 data-ajax-component-id="{{ params['AJAX_COMPONENT_ID'] }}"
+                 data-page-count="{{ result['NAV']['pageCount'] }}">
+
+                {% for item in result['LIST'] %}
+                    {% include 'natix:catalog.list:.default:item' with {
+                        'item': item,
+                    } %}
+                {% endfor %}
+
+            </div>
+            
+            {% if result['NAV']['pageCount'] > 1 %}
+                <div class="catalogItems__footer">
+                    <div class="button button-dark js-show-more">ПОКАЗАТЬ ЕЩЁ</div>
+                </div>
+            {% endif %}
+        {% else %}
+            <p>К сожалению у нас нет товаров, соответствующих вашему запросу. <br>
+                Попробуйте изменить поисковый запрос</p>
+        {% endif %}
+    </div>
+
+    {% if result['section']['DESCRIPTION'] %}
+        <div class="b-text">
+            {{ result['section']['DESCRIPTION'] }}
+        </div>
+    {% endif %}
+{% endspaceless %}

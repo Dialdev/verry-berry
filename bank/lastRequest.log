@@ -1,0 +1,38 @@
+13.12.2022 15:29:49 Array
+(
+    [TransactionId] => 1459244748
+    [Amount] => 2900.00
+    [Currency] => RUB
+    [PaymentAmount] => 2900.00
+    [PaymentCurrency] => RUB
+    [OperationType] => Payment
+    [InvoiceId] => 852
+    [AccountId] => 0070505@inbox.ru
+    [SubscriptionId] => 
+    [Name] => 
+    [Email] => 0070505@inbox.ru
+    [DateTime] => 2022-12-12 10:59:44
+    [IpAddress] => 109.73.10.90
+    [IpCountry] => RU
+    [IpCity] => Москва
+    [IpRegion] => Москва
+    [IpDistrict] => Москва
+    [IpLatitude] => 55.75222
+    [IpLongitude] => 37.61556
+    [CardFirstSix] => 553691
+    [CardLastFour] => 2192
+    [CardType] => MasterCard
+    [CardExpDate] => 10/28
+    [Issuer] => Tinkoff Bank
+    [IssuerBankCountry] => RU
+    [Description] => Заказ 11175
+    [AuthCode] => 042674
+    [Token] => tk_a30ea89146866371a2447b432d0c8
+    [TestMode] => 0
+    [Status] => Completed
+    [GatewayName] => Tinkoff
+    [Data] => {cloudPayments:{customerReceipt:{items:[{Label:Букет S,Price:2500.0,Quantity:1.0,Amount:2500.0,Vat:null,VatCode:NoNds,Method:FullPrepayment,Object:Commodity,MeasurementUnit:null,AgentSign:null,AgentData:{AgentOperationName:null,PaymentAgentPhone:null,PaymentReceiverOperatorPhone:null,TransferOperatorPhone:null,TransferOperatorName:null,TransferOperatorAddress:null,TransferOperatorInn:null},PurveyorData:{Phone:null,Name:null,Inn:null},CalculationPlace:null,AdditionalPositionInfo:null,Department:null,EAN13:null,Code:null,CalcVat:null,VatDescription:null,MethodName:null,ObjectName:null,AgentDescription:null,Excise:null,CountryOriginCode:null,CustomsDeclarationNumber:null,ProductCodeData:null,SaleObjectData:null,RawMarkCode:null,GroupSeparator:null},{Label:Доставка,Price:400.0,Quantity:1.0,Amount:400.0,Vat:null,VatCode:NoNds,Method:FullPrepayment,Object:Commodity,MeasurementUnit:null,AgentSign:null,AgentData:{AgentOperationName:null,PaymentAgentPhone:null,PaymentReceiverOperatorPhone:null,TransferOperatorPhone:null,TransferOperatorName:null,TransferOperatorAddress:null,TransferOperatorInn:null},PurveyorData:{Phone:null,Name:null,Inn:null},CalculationPlace:null,AdditionalPositionInfo:null,Department:null,EAN13:null,Code:null,CalcVat:null,VatDescription:null,MethodName:null,ObjectName:null,AgentDescription:null,Excise:null,CountryOriginCode:null,CustomsDeclarationNumber:null,ProductCodeData:null,SaleObjectData:null,RawMarkCode:null,GroupSeparator:null}],isBso:false,taxationSystem:null,Email:0070505@inbox.ru,Phone:+7 903 007-05-05},email:0070505@inbox.ru,Phone:+7 903 007-05-05}}
+    [TotalFee] => 72.50
+    [CardProduct] => TNW
+    [PaymentMethod] => 
+)

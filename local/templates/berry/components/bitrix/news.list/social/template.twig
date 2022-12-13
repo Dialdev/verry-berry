@@ -1,0 +1,11 @@
+{% spaceless %}
+    {% if result.ITEMS %}
+        <div class="social {% block social_modifier %}{% endblock %}">
+            {% for item in result.ITEMS %}
+                <a href="{{ item['CODE'] }}">
+                    {{ item['PREVIEW_TEXT'] }}
+                </a>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endspaceless %}

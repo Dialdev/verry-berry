@@ -1,0 +1,45 @@
+<?php
+
+IncludeModuleLangFile(__FILE__);
+
+class natix_consolecommands extends CModule
+{
+    const MODULE_ID = 'natix.consolecommands';
+    public $MODULE_ID = 'natix.consolecommands';
+    public $MODULE_VERSION;
+    public $MODULE_VERSION_DATE;
+    public $MODULE_NAME;
+    public $MODULE_DESCRIPTION;
+    public $MODULE_CSS;
+    public $strError = '';
+
+    /** @noinspection PhpConstructorStyleInspection */
+    public function natix_consolecommands()
+    {
+        $arModuleVersion = array();
+        $path = str_replace('\\', '/', __FILE__);
+        $path = substr($path, 0, strlen($path) - strlen('/index.php'));
+        include($path.'/version.php');
+        $this->MODULE_VERSION = $arModuleVersion['VERSION'];
+        $this->MODULE_VERSION_DATE = $arModuleVersion['VERSION_DATE'];
+        $this->MODULE_NAME = GetMessage('NATIX_CONSOLECOMMANDS_MODULE_NAME');
+        $this->MODULE_DESCRIPTION = GetMessage('NATIX_CONSOLECOMMANDS_DESCRIPTION');
+
+        $this->PARTNER_NAME = GetMessage('NATIX_CONSOLECOMMANDS_PARTNER_NAME');
+        $this->PARTNER_URI = GetMessage('NATIX_CONSOLECOMMANDS_PARTNER_URI');
+    }
+
+    /**
+     * @throws \Bitrix\Main\LoaderException
+     */
+    public function DoInstall()
+    {
+        \Bitrix\Main\ModuleManager::registerModule($this->MODULE_ID);
+        \Bitrix\Main\Loader::includeModule($this->MODULE_ID);
+    }
+
+    public function DoUninstall()
+    {
+        \Bitrix\Main\ModuleManager::unRegisterModule($this->MODULE_ID);
+    }
+}

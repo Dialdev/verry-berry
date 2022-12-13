@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog>
+    <shop>
+        <name>Very Berry Lab</name>
+        <company>ИП Ермилова Екатерина Александровна</company>
+        <url>https://veryberrylab.ru</url>
+        <currencies>
+            <currency id="RUR" rate="1"/>
+        </currencies>
+        <categories/>
+        <offers/>
+    </shop>
+</yml_catalog>

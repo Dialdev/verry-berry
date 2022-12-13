@@ -1,0 +1,22 @@
+{% spaceless %}
+    {% if result['ITEMS'] %}
+        <div class="flowsBlock__topTitle">Удивите своих любимых</div>
+        <div class="flowsBlock__slider swiper-container">
+            <div class="flowsBlock__content swiper-wrapper">
+                {% for item in result['ITEMS'] %}
+                    {% if item['PROPERTIES']['TYPE']['VALUE_XML_ID'] == 'banner' %}
+                        <div class="swiper-slide">
+                            <a class="flowItem {{ item['PROPERTIES']['BACKGROUND']['VALUE_XML_ID'] }}" href="{{ item['PROPERTIES']['LINK']['VALUE'] }}">
+                                <img class="flowItem__img" src="{{ item['PREVIEW_PICTURE']['SRC'] }}" alt="" role="presentation" />
+                                <span class="flowItem__desc">{{ item['PREVIEW_TEXT'] }}</span>
+                                <span class="flowItem__title">{{ item['~NAME'] }}</span>
+                            </a>
+                        </div>
+                    {% elseif item['PROPERTIES']['TYPE']['VALUE_XML_ID'] == 'text' %}
+                        <div class="flowsBlock__title flowsBlock__title_1">{{ item['~NAME'] }}</div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

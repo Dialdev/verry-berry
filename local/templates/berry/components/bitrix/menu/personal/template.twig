@@ -1,0 +1,21 @@
+{% spaceless %}
+    {% if result %}
+        <div class="s-lk__side">
+            <div class="nav-lk">
+                {% for item in result %}
+                    <a class="nav-lk__item {% if item.SELECTED %} active {% endif %}" href="{{ item.LINK }}">
+                        {% if item.PARAMS.svg %}
+                            <span class="nav-lk__icon">
+                                <svg><use xlink:href="#{{ item.PARAMS.svg }}"></use></svg>
+                            </span>
+                        {% endif %}
+                        <span class="nav-lk__title">{{ item.TEXT }}</span>
+                        {% if item.COUNT %}
+                            <span class="nav-lk__btn">{{ item.COUNT }}</span>
+                        {% endif %}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

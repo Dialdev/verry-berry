@@ -1,0 +1,49 @@
+{% spaceless %}
+    {% if result['PRODUCT_IDS'] %}
+        <div class="itemsBlock">
+            <div class="container">
+                <div class="blockTop">
+                    <h2 class="blockTop__title">{{ result['BLOCK']['NAME'] }}</h2>
+                    <div class="blockTop__nav">
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-navigation">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="itemsBlock__middle swiper-container">
+                    {% if result['SELECTIONS'] %}
+                        <div class="itemsBlock__nav swiper-wrapper">
+                            {% for item in result['SELECTIONS'] %}
+                                <a href="javascript:void(0);" class="swiper-slide js-auto-loading-selection-btn"
+                                   data-auto-loading-url="/api/v1/component/action/natix:catalog.set.list/loadMainSelection/"
+                                   data-auto-loading-params='{{ item['JSON_PARAMS']|json_encode }}'>
+                                    {{ item['NAME'] }}
+                                </a>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                    {% if result['BLOCK']['UF_LINK'] %}
+                        <a class="next-link" href="{{ result['BLOCK']['UF_LINK'] }}">
+                            <span>В каталог</span>
+                            <svg><use xlink:href="#arr-right-light"></use></svg>
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="itemsBlock__sliderWrapper js-auto-loading-selection">
+                {{ showComponent('natix:catalog.set.list', 'main.selection', {
+                    'FILTER' : {
+                        '@ID' : result['PRODUCT_IDS'],
+                    },
+                    'ELEMENT_PER_PAGE' : 30,
+                }) }}
+            </div>
+            
+        </div>
+    {% endif %}
+{% endspaceless %}

@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001669570619';
+$dateexpire = '001669574219';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:1:{s:6:"recent";a:5:{i:0;a:4:{s:3:"url";s:103:"/bitrix/admin/user_admin.php?lang=ru&back_url_pub=%2F%3Flocation%3Dc2deb16a-0330-4f05-821f-1d09c93331e6";s:4:"text";s:39:"Список пользователей";s:5:"title";s:64:"Управление пользователями сервера";s:4:"icon";s:9:"undefined";}i:1;a:4:{s:3:"url";s:102:"/bitrix/admin/user_admin.php?lang=ru&back_url_pub=%2Fcatalog%2Fshkatulki%2F%3FSECTION_CODE%3Dshkatulki";s:4:"text";s:39:"Список пользователей";s:5:"title";s:64:"Управление пользователями сервера";s:4:"icon";s:9:"undefined";}i:2;a:4:{s:3:"url";s:102:"/bitrix/admin/sale_order.php?lang=ru&back_url_pub=%2Fcatalog%2Fshkatulki%2F%3FSECTION_CODE%3Dshkatulki";s:4:"text";s:12:"Заказы";s:5:"title";s:27:"Список заказов";s:4:"icon";s:9:"undefined";}i:3;a:4:{s:3:"url";s:177:"/bitrix/admin/cat_product_admin.php?lang=ru&IBLOCK_ID=5&type=catalogs&find_section_section=-1&back_url_pub=%2Fcatalog%2Fbukety-s-klubnikoy%2F%3FSECTION_CODE%3Dbukety-s-klubnikoy";s:4:"text";s:27:"Список товаров";s:5:"title";s:0:"";s:4:"icon";s:9:"undefined";}i:4;a:4:{s:3:"url";s:79:"/bitrix/admin/sale_order.php?lang=ru&back_url_pub=%2Fpersonal%2Forder%2Fmake%2F";s:4:"text";s:12:"Заказы";s:5:"title";s:27:"Список заказов";s:4:"icon";s:9:"undefined";}}}}';
+return true;
+?>

@@ -1,0 +1,18 @@
+{% spaceless %}
+    {% if result.ITEMS %}
+        <div class="whyUsList__item">
+            <div class="whyUs__item whyUs__item_follow">
+                <div class="whyUs__itemInner">
+                    <div class="whyUs__itemTitle">Фоловьте нас <br> в соц. сетях</div>
+                    <div class="social social_flat">
+                        {% for item in result.ITEMS %}
+                            <a href="{{ item['CODE'] }}" target="_blank">
+                                {{ item['PREVIEW_TEXT'] }}
+                            </a>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

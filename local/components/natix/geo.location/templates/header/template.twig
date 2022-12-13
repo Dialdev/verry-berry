@@ -1,0 +1,30 @@
+{% spaceless %}
+
+<div class="header__location">
+    <div class="header__location-inner" >
+        <svg>
+            <use xlink:href="#location"></use>
+        </svg>
+        {{ result['LOCATION']['CITY_NAME'] }}
+    </div>
+</div>
+<div class="b-popover uk-drop" id="popover-header" uk-drop="mode: click; pos: bottom-center">
+    <div class="form-group">
+        <label for="header-city-desktop">Ваш город</label>
+        <select id="header-city-desktop" class="select js-change-city" data-class="select-default select-sm">
+            {% for location in result['LOCATIONS_ALL'] %}
+                {% if location['CODE'] != 'd7a10054-da31-4560-8121-7c2f33092883' %}
+                    <option value="{{ location['CODE'] }}" {{ location['CODE'] == result['LOCATION']['CODE'] ? ' selected' }}>{{ location.CITY_NAME }}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
+    </div>
+    {#<label>Дата и время доставки</label>
+    <div class="b-popover-half">
+        <input class="control-date form-control" id="datepicker" type="text" value="04.10.2019" data-container="header-datepicker-container-desktop">
+        <input class="form-control" type="time" value="16:30" step="600">
+    </div>
+    <div class="header-datepicker-container" id="header-datepicker-container-desktop"></div>#}
+</div>
+
+{% endspaceless %}

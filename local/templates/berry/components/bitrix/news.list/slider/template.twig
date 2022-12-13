@@ -1,0 +1,49 @@
+{% spaceless %}
+    {% if result.ITEMS %}
+        <div class="topBlock__slider">
+            <div class="sliderMain swiper-container">
+                <div class="swiper-wrapper">
+                    {% for slide in result.ITEMS %}
+                        {% set picture = slide['PREVIEW_PICTURE'] %}
+                        {% if slide['ID'] == 2132 or slide['ID'] == 2213 %}
+                            <div class="swiper-slide" data-theme="{{ slide['PROPERTIES']['THEME']['VALUE_XML_ID'] }}">
+                                <picture class="sliderMain__img">
+                                    {% if picture['SRC'] %}
+                                        <img src="{{ picture['SRC'] }}" alt="{{ slide['NAME'] }}" usemap="#in-line-button-{{ slide['ID'] }}" style="object-fit: fill">
+                                    {% endif %}
+                                </picture>
+                                <map name="in-line-button-{{ slide['ID'] }}">
+                                    <area alt="in-line-button-{{ slide['ID'] }}" shape="rect" coords="0,0,1277,625" href="{{ slide['PROPERTIES']['LINK']['VALUE'] }}">
+                                </map>
+                            </div>
+                        {% else %}
+                            <div class="swiper-slide" data-theme="{{ slide['PROPERTIES']['THEME']['VALUE_XML_ID'] }}">
+                                <picture class="sliderMain__img">
+                                    {% if picture['SM']['src'] %}
+                                        <source media="(max-width: 575px)" srcset="{{ picture['SM']['src'] }}">
+                                    {% endif %}
+                                    {% if picture['MD']['src'] %}
+                                        <source media="(max-width: 991px)" srcset="{{ picture['MD']['src'] }}">
+                                    {% endif %}
+                                    {% if picture['SRC'] %}
+                                        <img src="{{ picture['SRC'] }}" alt="{{ slide['NAME'] }}">
+                                    {% endif %}
+                                </picture>
+
+                                <div class="sliderMain__content">
+                                    <h1 class="sliderMain__title">
+                                        <span class="{{ slide['PROPERTIES']['COLOR']['VALUE_XML_ID'] }}">{{ slide['~NAME'] }}</span>
+                                    </h1>
+                                    {% if slide['PROPERTIES']['LINK']['VALUE'] %}
+                                        <a class="sliderMain__button button button-red" href="{{ slide['PROPERTIES']['LINK']['VALUE'] }}">ПОДРОБНЕЕ</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

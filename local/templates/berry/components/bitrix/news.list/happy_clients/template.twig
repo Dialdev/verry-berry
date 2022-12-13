@@ -1,0 +1,40 @@
+{% spaceless %}
+    {% if result.ITEMS %}
+        <div class="itemsBlog">
+            <div class="container">
+                <div class="blockTop blockTop_itemsBlog">
+                    <h2 class="blockTop__title itemsBlog__title">{{ result['NAME'] }}</h2>
+                    <div class="blockTop__nav">
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-navigation">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itemsBlog__sliderWrapper">
+                <div class="itemsBlog__slider swiper-container">
+                    <div class="swiper-wrapper">
+                        {% for item in result['ITEMS'] %}
+                            {% set picture = item['PREVIEW_PICTURE'] %}
+                            <div class="swiper-slide">
+                                <div class="itemBlog">
+                                    <div class="itemBlog__img">
+                                        {% if picture['SRC'] %}
+                                            <img src="{{ picture['SRC'] }}" alt="{{ item['NAME'] }}">
+                                        {% endif %}
+                                    </div>
+                                    <div class="itemBlog__content">
+                                        <div class="itemBlog__title">{{ item['NAME'] }}</div>
+                                        <div class="itemBlog__text">{{ item['PREVIEW_TEXT'] }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

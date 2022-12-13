@@ -1,0 +1,7 @@
+{% spaceless %}
+    {% for item in result.list %}
+        {% include 'natix:catalog.set.list:item:template' with {
+            'item': item,
+        } %}
+    {% endfor %}
+{% endspaceless %}

@@ -1,0 +1,10 @@
+{% spaceless %}
+    {% if result %}
+        <nav class="navTop">
+            {% for item in result %}
+                <a href="{{ item.LINK }}">{{ item.TEXT }}</a>
+            {% endfor %}
+            <a href="https://veryberrylab-buisness.ru" style="color: red; font-family: 'Gilroy', serif;">Франшиза</a>
+        </nav>
+    {% endif %}
+{% endspaceless %}

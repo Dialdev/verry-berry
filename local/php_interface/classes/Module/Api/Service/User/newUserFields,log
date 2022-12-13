@@ -1,0 +1,19 @@
+Array
+(
+    [LID] => s1
+    [LOGIN] => test_user4@test.ru
+    [EMAIL] => test_user4@test.ru
+    [NAME] => Тестовый пользователь 4
+    [SECOND_NAME] => 
+    [LAST_NAME] => 
+    [PERSONAL_PHONE] => +34 5345345345
+    [ACTIVE] => Y
+    [PASSWORD] => 600573
+    [CONFIRM_PASSWORD] => 600573
+    [UF_PASSWORD] => 600573
+    [GROUP_ID] => Array
+        (
+            [0] => 
+        )
+
+)

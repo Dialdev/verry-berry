@@ -1,0 +1,25 @@
+{% spaceless %}
+    {% if result %}
+        <div class="lk-bonuses">
+            <div class="lk-bonuses__item">
+                <div class="lk-title">Ваши бонусы</div>
+                <div class="lk-bonuses__price">{{result.BONUS}} ₽</div>
+                <p class="text-muted">Бонусы начисляются за покупки, а также друзей , сделавших покупки по вашему промокоду</p>
+            </div>
+            <div class="lk-bonuses__item">
+                {% if result['PARTNER_LINK'] %}
+                    <div class="lk-title">Ваша партнерская ссылка</div>
+                    <div class="lk-bonuses__promoWrap">
+                        <div class="lk-bonuses__promoLink"><a href="{{ result['PARTNER_LINK'] }}">{{ result['PARTNER_LINK'] }}</a></div>
+                    </div>
+                {% endif %}
+                <p>Получайте бонусы за друзей, сделавших покупки после перехода по вашей партнерской ссылке.</p>
+                <ol>
+                    <li>Отправьте другу вашу партнерскую ссылку <br><br></li>
+                    <li>Друг оформит заказ и получит бонусы за выполненный заказ <br><br></li>
+                    <li>После того, как заказ друга будет выполнен, вам будет начислено {{ result['PARTNER_COMISSION']}} бонусов<br><br></li>
+                </ol>
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

@@ -1,0 +1,83 @@
+{% set set = result.set %}
+{% set properties = result['product']['PROPERTIES'] %}
+<div class="js-product-data" style="display: none" data-sectionId="{{ set['section_id'] }}" data-setId="{{ set['id'] }}"></div>
+
+<div class="product-wrapper">
+    <div id="app-product">
+        <AppProduct :sectionId="{{ set['section_id'] }}" :setId="{{ set['id'] }}"/>
+    </div>
+</div>
+
+<div data-move="product-content-get">
+    <div class="productContent">
+        <div class="productContent__item">
+            {% if properties['TITLE_1']['VALUE'] %}
+                <div class="productContent__title">{{ properties['TITLE_1']['VALUE'] }}</div>
+            {% endif %}
+            {{ properties['CONTENT_1']['VALUE']['TEXT'] }}
+            <div class="listIcons listIcons_product">
+                <div class="listIcons__item" style="--color: #E6F4F2">
+                    <div class="listIcons__icon">
+                        <svg><use xlink:href="#camera"></use></svg>
+                    </div>
+                    <div class="listIcons__title">
+                        {{ showComponent('bitrix:main.include', '', {
+                            'AREA_FILE_SHOW': 'file',
+                            'PATH': '/local/templates/berry/page_templates/product/only_by_hand_photo.php',
+                            'EDIT_TEMPLATE': '',
+                        }) }}
+                    </div>
+                </div>
+                <div class="listIcons__item" style="--color: #ECF0F7">
+                    <div class="listIcons__icon">
+                        <svg><use xlink:href="#delivery"></use></svg>
+                    </div>
+                    <div class="listIcons__title">
+                        {{ showComponent('bitrix:main.include', '', {
+                            'AREA_FILE_SHOW': 'file',
+                            'PATH': '/local/templates/berry/page_templates/product/only_by_hand_delivery.php',
+                            'EDIT_TEMPLATE': '',
+                        }) }}
+                    </div>
+                </div>
+                <div class="listIcons__item" style="--color: #F4F5F9">
+                    <div class="listIcons__icon">
+                        <svg><use xlink:href="#mail"></use></svg>
+                    </div>
+                    <div class="listIcons__title">
+                        {{ showComponent('bitrix:main.include', '', {
+                            'AREA_FILE_SHOW': 'file',
+                            'PATH': '/local/templates/berry/page_templates/product/only_by_hand_postcard.php',
+                            'EDIT_TEMPLATE': '',
+                        }) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="productContent__item">
+            {% if properties['TITLE_2']['VALUE'] %}
+                <div class="productContent__title">{{ properties['TITLE_2']['VALUE'] }}</div>
+            {% endif %}
+            {{ properties['CONTENT_2']['VALUE']['TEXT'] }}
+        </div>
+        <div class="productContent__item">
+
+            {{ showComponent('natix:delivery.info', 'product.card', {}) }}
+
+            <div class="listIcons2 listIcons2_bottom">
+                <div class="listIcons2__icon">
+                    <svg width="32" height="32"><use xlink:href="#qa"></use></svg>
+                </div>
+                <div class="listIcons2__content">
+                    {{ showComponent('bitrix:main.include', '', {
+                        'AREA_FILE_SHOW': 'file',
+                        'PATH': '/local/templates/berry/page_templates/product/phone.php',
+                        'EDIT_TEMPLATE': '',
+                    }) }}
+                    <div class="listIcons2__title">Остались вопросы?</div>
+                    <div class="listIcons2__subtitle">Ответим по телефону</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+{% spaceless %}
+    {% if result %}
+        <div class="navBlock">
+            <div class="navBlock__title">Личный кабинет</div>
+            <div class="navBlock__nav">
+                {% for item in result %}
+                    <a href="{{ item.LINK }}">{{ item.TEXT }}</a>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

@@ -1,0 +1,9 @@
+{% spaceless %}
+    {% if result %}
+        <div class="mobile-sm-nav">
+            {% for item in result %}
+                <a href="{{ item.LINK }}">{{ item.TEXT }}</a>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endspaceless %}

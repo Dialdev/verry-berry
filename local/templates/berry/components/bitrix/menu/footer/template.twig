@@ -1,0 +1,14 @@
+{% spaceless %}
+    {% if result %}
+        <div class="footer__item">
+            <div class="footer__navWrapper">
+                <div class="footer__title">Информация</div>
+                <div class="footer__nav footer__nav_gray">
+                    {% for item in result %}
+                        <a class="footer__navItem" href="{{ item.LINK }}">{{ item.TEXT }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

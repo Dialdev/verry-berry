@@ -1,0 +1,37 @@
+{% spaceless %}
+    <div class="{% block item_modifier %}catalogItems__item{% endblock %}">
+        <div class="item">
+            <div class="item__inner">
+                {#<div class="b-labels">
+                    <div>
+                        <div class="b-labels__label b-labels__label_discount">Скидка</div>
+                    </div>
+                    <div>
+                        <div class="b-labels__label b-labels__label_hit">Хит</div>
+                    </div>
+                </div>#}
+                <div class="item__top">
+                    <a href="{{ item.url }}">
+                        <img src="{{ item.image.src }}">
+                    </a>
+                    {% if item.bouquet.size.name %}
+                        <div class="item__size">{{ item.bouquet.size.name }}</div>
+                    {% endif %}
+                </div>
+                <div class="item__content">
+                    <a class="item__title" href="{{ item.url }}">
+                        <span>{{ item.name }}</span>
+                    </a>
+                    <div class="item__price is-red">{{ item.price.price_discount_format }}</div>
+                    {% if item.price.price > item.price.price_discount %}
+                        <div class="item__priceOld">{{ item.price_format }}</div>
+                    {% endif %}
+                    <div class="item__footer">
+                        <a href="{{ item.url }}" class="item__submit">ПОДРОБНЕЕ</a>
+                        {#<div class="item__like"></div>#}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endspaceless %}

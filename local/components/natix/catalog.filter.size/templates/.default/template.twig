@@ -1,0 +1,9 @@
+{% spaceless %}
+    <div class="navCatFilter">
+        {% for size in result.sizes %}
+            <div class="navCatFilter__item{{ size.active ? ' active' }}">
+                <a href="{{ size.url }}">{{ size.filter_name }}</a>
+            </div>
+        {% endfor %}
+    </div>
+{% endspaceless %}

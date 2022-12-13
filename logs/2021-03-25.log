@@ -1,0 +1,1888 @@
+2021-03-25 14:21:19 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:21:22 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:22:52 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:22:57 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:23:02 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:23:06 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:23:13 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:24:38 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:24:45 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:24:56 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:25:02 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:25:13 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:25:15 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:25:44 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:25:53 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:25:58 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:26:16 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:26:17 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:26:20 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:26:29 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:26:35 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:27:07 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/php_interface/classes/Component/CommonComponent.php:79
+#5: Natix\Component\CommonComponent->sendNotifyException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/traits/common.php:408
+#6: Bex\Bbc\Basis->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#7: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#8: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#9: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/contacts/index.php:14
+----------
+2021-03-25 14:27:13 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/php_interface/classes/Component/CommonComponent.php:79
+#5: Natix\Component\CommonComponent->sendNotifyException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/traits/common.php:408
+#6: Bex\Bbc\Basis->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#7: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#8: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#9: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/contacts/index.php:14
+----------
+2021-03-25 14:28:17 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:29:03 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:31:36 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:35:16 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:35:29 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:35:34 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:35:38 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:35:40 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:36:06 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:36:22 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:36:54 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:37:38 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:38:24 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:39:45 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:40:02 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:40:05 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:40:06 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:41:43 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/php_interface/classes/Component/CommonComponent.php:79
+#5: Natix\Component\CommonComponent->sendNotifyException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/traits/common.php:408
+#6: Bex\Bbc\Basis->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#7: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#8: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#9: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/pickup/index.php:14
+----------
+2021-03-25 14:41:48 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:41:50 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:41:53 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:43:20 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:43:37 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:43:40 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:43:57 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:27 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:42 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:43 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:45 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:46 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:47 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:48 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:49 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:50 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:53 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:55 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:44:55 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:45:05 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:45:36 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/php_interface/classes/Component/CommonComponent.php:79
+#5: Natix\Component\CommonComponent->sendNotifyException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/traits/common.php:408
+#6: Bex\Bbc\Basis->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#7: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#8: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#9: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/contacts/index.php:14
+----------
+2021-03-25 14:45:50 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:45:52 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:45:52 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:45:53 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:46:03 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:46:04 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:46:06 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:46:11 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:46:22 - Host: www.veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/php_interface/classes/Component/CommonComponent.php:79
+#5: Natix\Component\CommonComponent->sendNotifyException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/traits/common.php:408
+#6: Bex\Bbc\Basis->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#7: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#8: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#9: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/contacts/index.php:14
+----------
+2021-03-25 14:46:48 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------
+2021-03-25 14:47:22 - Host: veryberrylab.ru - UNCAUGHT_EXCEPTION - [UnexpectedValueException] 
+The stream or file "/var/www/u1149019/data/www/veryberrylab.ru/.logs/app-berry-2021-03-25.log" could not be opened: failed to open stream: Permission denied (0)
+/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:108
+#0: Monolog\Handler\StreamHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php:119
+#1: Monolog\Handler\RotatingFileHandler->write(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php:39
+#2: Monolog\Handler\AbstractProcessingHandler->handle(array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:344
+#3: Monolog\Logger->addRecord(integer, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/vendor/monolog/monolog/src/Monolog/Logger.php:712
+#4: Monolog\Logger->error(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/local/components/natix/catalog.element.router/class.php:79
+#5: Natix\Component\CatalogElementRouter->catchException(object)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/bex.bbc/lib/basis.php:130
+#6: Bex\Bbc\Basis->executeComponent()
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/component.php:648
+#7: CBitrixComponent->includeComponent(string, array, NULL)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/classes/general/main.php:1039
+#8: CAllMain->IncludeComponent(string, string, array)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/product/index.php:17
+#9: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/modules/main/include/urlrewrite.php:159
+#10: include_once(string)
+	/var/www/u1149019/data/www/veryberrylab.ru/htdocs/bitrix/urlrewrite.php:2
+----------

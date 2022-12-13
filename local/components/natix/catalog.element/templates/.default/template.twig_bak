@@ -1,0 +1,266 @@
+{% spaceless %}
+    {% set product = result['product'] %}
+    {% set properties = result['product']['PROPERTIES'] %}
+    {% set activeOffer = result['ACTIVE_OFFER'] %}
+    {% set images = activeOffer['IMAGES'] ?? product['IMAGES'] %}
+    {% set price = activeOffer['PRICE'] ?? product['PRICE'] %}
+    {% set bonus_percent = product['bonus'] %}
+    {% set offers = product['OFFERS'] %}
+
+    <h1>{{ product['NAME'] }}</h1>
+    <div class="product-art">
+        <div class="product-art__avail">{{ product['CATALOG_AVAILABLE'] == 'Y' ? 'В наличии' : 'Нет в наличии' }}</div>
+        {% if product['PROPERTIES']['ARTICUL']['VALUE'] %}
+            <div class="product-art__articul">Артикул {{ product['PROPERTIES']['ARTICUL']['VALUE'] }}</div>
+        {% endif %}
+    </div>
+    <div class="productTop">
+        <div class="productTop__sliders">
+            {% include 'natix:catalog.element:.default:labels' %}
+            {% include 'natix:catalog.element:.default:image_slider' %}
+            <div data-move="product-content-set"></div>
+        </div>
+        <div class="productTop__side">
+
+            {% if offers %}
+                <div class="productTopItem">
+                    <div class="productTopItem__title">Количество ягод</div>
+                    <div class="productTopItem__list">
+                        {% for offer in offers %}
+                            <div class="productTopItem__listItem">
+                                <div class="b-thumb b-thumb_quantity{{ offer['IS_ACTIVE'] ? ' active' }} js-auto-loading-product-card-btn"
+                                     data-auto-loading-url="/api/v1/component/action/natix:catalog.element/loadProductCard/"
+                                     data-auto-loading-params='{{ offer['JSON_PARAMS']|json_encode }}'>
+                                    {% if offer['PROPERTIES']['BERRIES_COUNT']['VALUE_ENUM'] %}
+                                        <div class="b-thumb__size">{{ offer['PROPERTIES']['BERRIES_COUNT']['VALUE_ENUM'] }}</div>
+                                    {% endif %}
+                                    {% if offer['PRICE']['diff'] %}
+                                        <div class="b-thumb__price">{{ offer['PRICE']['diff_format'] }}</div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+
+            {% if product['PROPERTIES']['SHOW_QNT_INPUT']['VALUE'] == 1 %}
+                <div class="productTopItem">
+                    <div class="productTopItem__title">Количество</div>
+                    <div class="b-counter itemSm__counter">
+                        <span class="b-counter__minus" data-button="-"></span>
+                        <div class="b-counter__control">
+                            <input class="form-control js-quantity-input" type="number" value="1" data-field="number" max="999">
+                        </div>
+                        <span class="b-counter__plus" data-button="+"></span>
+                    </div>
+                </div>
+            {% endif %}
+
+            <div class="productTopSumSubmit">
+                <div class="productTopSum">
+                    <div class="productTopSum__item">
+                        <div class="productTopSum__title">Итого</div>
+                        <div class="productTopSum__grid">
+                            <div class="productTopSum__priceWrapper">
+                                <div class="productTopSum__priceNew test">{{ price.price_discount_format }}</div>
+                                {% if price.price > price.price_discount %}
+                                    <div class="productTopSum__priceOld">{{ price.price_format }}</div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="productTopSum__item productTopSum__item--bonus">
+                        <div class="productTopSum__title">
+                            <span class="productTopSum__label">Бонусов к начислению:</span>
+                            <div class="productTopSum__bonusInfo bonusInfo-product">
+                                <a class="bonusInfo-product__btn" href="#"></a>
+                                <div class="bonusInfo-product__popup">
+                                    <div class="bonusInfo-product__inner">
+                                        <div class="bonusInfo-product__content">
+                                            <p>Можно потратить<br>на следующий заказ</p>
+
+                                            <div class="bonusInfo-product__convert"><span class="one-strawberry">1</span> = 1 ₽</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="productTopSum__bonus"><span class="productTopSum__bonus-count">{{ price.price_discount/result['product']['PRICE']['bonus'] }} </span></div>
+                    </div>
+                </div>
+                <div class="productTopSubmit">
+                    <div id="add-to-basket" class="productTopSubmit__submit js-add-to-basket" data-id="{{ activeOffer['ID'] ?? product['ID'] }}">+ В КОРЗИНУ</div>
+                    <div id="app-fast-order">
+                        {#<AppFastOrder/>#}
+                    </div>
+                    {#<div class="productTopSubmit__like"></div>#}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-move="product-content-get">
+        <div class="productContent">
+            <div class="productContent__item">
+                {% if properties['TITLE_1']['VALUE'] %}
+                    <div class="productContent__title">{{ properties['TITLE_1']['VALUE'] }}</div>
+                {% endif %}
+                {{ properties['CONTENT_1']['VALUE']['TEXT'] }}
+                <div class="listIcons listIcons_product">
+                    <div class="listIcons__item" style="--color: #E6F4F2">
+                        <div class="listIcons__icon">
+                            <svg><use xlink:href="#camera"></use></svg>
+                        </div>
+                        <div class="listIcons__title">
+                            {{ showComponent('bitrix:main.include', '', {
+                                'AREA_FILE_SHOW': 'file',
+                                'PATH': '/local/templates/berry/page_templates/product/only_by_hand_photo.php',
+                                'EDIT_TEMPLATE': '',
+                            }) }}
+                        </div>
+                    </div>
+                    <div class="listIcons__item" style="--color: #ECF0F7">
+                        <div class="listIcons__icon">
+                            <svg><use xlink:href="#delivery"></use></svg>
+                        </div>
+                        <div class="listIcons__title">
+                            {{ showComponent('bitrix:main.include', '', {
+                                'AREA_FILE_SHOW': 'file',
+                                'PATH': '/local/templates/berry/page_templates/product/only_by_hand_delivery.php',
+                                'EDIT_TEMPLATE': '',
+                            }) }}
+                        </div>
+                    </div>
+                    <div class="listIcons__item" style="--color: #F4F5F9">
+                        <div class="listIcons__icon">
+                            <svg><use xlink:href="#mail"></use></svg>
+                        </div>
+                        <div class="listIcons__title">
+                            {{ showComponent('bitrix:main.include', '', {
+                                'AREA_FILE_SHOW': 'file',
+                                'PATH': '/local/templates/berry/page_templates/product/only_by_hand_postcard.php',
+                                'EDIT_TEMPLATE': '',
+                            }) }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="productContent__item">
+                {% if properties['TITLE_2']['VALUE'] %}
+                    <div class="productContent__title">{{ properties['TITLE_2']['VALUE'] }}</div>
+                {% endif %}
+                {{ properties['CONTENT_2']['VALUE']['TEXT'] }}
+            </div>
+            <div class="productContent__item">
+
+                {{ showComponent('natix:delivery.info', 'product.card', {}) }}
+
+                <div class="listIcons2 listIcons2_bottom">
+                    <div class="listIcons2__icon">
+                        <svg width="32" height="32"><use xlink:href="#qa"></use></svg>
+                    </div>
+                    <div class="listIcons2__content">
+                        {{ showComponent('bitrix:main.include', '', {
+                            'AREA_FILE_SHOW': 'file',
+                            'PATH': '/local/templates/berry/page_templates/product/phone.php',
+                            'EDIT_TEMPLATE': '',
+                        }) }}
+                        <div class="listIcons2__title">Остались вопросы?</div>
+                        <div class="listIcons2__subtitle">Ответим по телефону</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+    _tmr.push({ id: 3208143, type: "reachGoal", goal: "viewcontent", value: {{ price.price }} });
+
+    _tmr.push({
+        type: 'itemView',
+        productid: {{ product['ID'] }},
+        pagetype: 'product',
+        list: 1,
+        totalvalue: {{ price.price }}
+    });
+
+    let fbqTimer = setTimeout(function() {
+        if(typeof fbq == 'undefined')
+            return false;
+
+        clearTimeout(fbqTimer);
+
+        fbq('track', 'ViewContent', {
+            content_ids: {{ product['ID'] }},
+            content_name: '{{ product['NAME'] }}',
+            content_category: '{{ product['SECTION']['NAME'] }}',
+            value: {{ price.price }},
+            content_type: 'product',
+            currency: 'RUB'
+        });
+    }, 1000);
+
+    let dataLayerTimer = setTimeout(function() {
+        if(typeof dataLayer == 'undefined')
+            return false;
+
+        clearTimeout(dataLayerTimer);
+
+        dataLayer.push({ ecommerce: null });
+        dataLayer.push({
+            event: 'showDetail',
+            ecommerce: {
+                currencyCode: 'RUB',
+                detail: {
+                    products: [{
+                        name: '{{ product['NAME'] }}',
+                        id: {{ product['ID'] }},
+                        price: {{ price.price }},
+                        category: '{{ product['SECTION']['NAME'] }}',
+                    }]
+                }
+            }
+        });
+    }, 1000);
+
+    document.getElementById("add-to-basket").addEventListener( 'click', function(){
+        let count = document.querySelector(".js-quantity-input");
+        let price = {{ price.price }};
+
+        price *= count.value;
+
+        _tmr.push({ id: 3208143, type: "reachGoal", goal: "cart", value: price });
+        _tmr.push({type: 'itemView', productid: {{ product['ID'] }}, pagetype: 'cart',  list: 1, totalvalue: price});
+
+        if (typeof fbq !== 'undefined') {
+            fbq('track', 'AddToCart', {
+                content_ids: {{ product['ID'] }},
+                content_name: '{{ product['NAME'] }}',
+                content_category: '{{ product['SECTION']['NAME'] }}',
+                value: price,
+                content_type: 'product',
+                currency: 'RUB'
+            });
+        }
+        if (typeof dataLayer !== 'undefined'){
+            dataLayer.push({ ecommerce: null });
+            dataLayer.push({
+                event: 'addToCart',
+                ecommerce: {
+                    currencyCode: 'RUB',
+                    add: {
+                        actionField: 'categories',
+                        products: [{
+                            name: '{{ product['NAME'] }}',
+                            id: {{ product['ID'] }},
+                            price: {{ price.price }},
+                            category: '{{ product['SECTION']['NAME'] }}',
+                            quantity: 1
+                        }]
+                    }
+                }
+            });
+        }
+    });
+</script>
+{% endspaceless %}

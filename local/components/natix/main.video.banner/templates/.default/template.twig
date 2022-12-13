@@ -1,0 +1,23 @@
+{% spaceless %}
+    {% if result['BLOCK'] %}
+        <div class="container video-banner-container">
+            <img src="{{ result['BLOCK']['props']['photo']['path'] }}" alt="Фото банера">
+
+            <div class="video-banner-description-container">
+                <div>
+                    <div class="video-banner-description-title">Фото перед доставкой</div>
+
+                    <div class="video-banner-description-text">
+                        <p>Если Вы заказываете в подарок, то не переживайте, что не увидите композицию в жизни!</p>
+
+                        <p>Менеджер отправит Вам фото готового заказа на WhatsApp по готовности</p>
+                    </div>
+                </div>
+
+                <video preload="none" autoplay playsinline loop muted>
+                    <source src="{{ result['BLOCK']['props']['video']['VALUE']['path'] }}" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

@@ -1,0 +1,44 @@
+{# Слайдер с картинками #}
+{% if set.image or set.dop_images %}
+
+    {% set dop_images = set.dop_images %}
+
+    <div class="productSliderBig swiper-container">
+        <div class="swiper-wrapper">
+            {% if set.image %}
+                <div class="swiper-slide">
+                    <img src="{{ set.image.src }}">
+                </div>
+            {% endif %}
+
+            {% for image in dop_images %}
+                <div class="swiper-slide">
+                    <img src="{{ image.src }}">
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% if dop_images|length > 1 %}
+    <div class="productSliderThumbs swiper-container">
+        <div class="swiper-wrapper">
+            {% if set.image.small_src %}
+                <div class="swiper-slide">
+                    <img src="{{ set.image.small_src }}">
+                </div>
+            {% endif %}
+
+            {% for image in dop_images %}
+                <div class="swiper-slide">
+                    <img src="{{ image.small_src }}">
+                </div>
+            {% endfor %}
+        </div>
+        <div class="swiper-navigation">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    {% endif %}
+
+{% endif %}

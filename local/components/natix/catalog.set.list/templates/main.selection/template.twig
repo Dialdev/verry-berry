@@ -1,0 +1,17 @@
+{% spaceless %}
+    {% if result.list %}
+        
+        <div class="itemsBlock__slider swiper-container">
+            <div class="swiper-wrapper">
+
+                {% for item in result.list %}
+                    {% include 'natix:catalog.set.list:main.selection:item' with {
+                        'item': item,
+                    } %}
+                {% endfor %}
+
+            </div>
+        </div>
+        
+    {% endif %}
+{% endspaceless %}

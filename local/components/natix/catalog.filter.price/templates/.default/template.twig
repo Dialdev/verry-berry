@@ -1,0 +1,12 @@
+{% spaceless %}
+    {% if result['filter_prices'] %}
+        <div class="navFilter navFilter_catalog">
+            <div class="navFilter__title">Выбрать по цене</div>
+            <div class="navFilter__nav">
+                {% for item in result['filter_prices'] %}
+                    <a class="navFilter__item{{ item['isSelected'] ? ' active' }}" href="{{ item['url'] }}">{{ item['name'] }}</a>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

@@ -1,0 +1,13 @@
+{% spaceless %}
+    {% if result %}
+        <div class="navBlock">
+            <div class="navBlock__title">Информация</div>
+            <div class="navBlock__nav navBlock__nav_half">
+                {% for item in result %}
+                    <a href="{{ item.LINK }}">{{ item.TEXT }}</a>
+                {% endfor %}
+                <a href="https://veryberrylab-buisness.ru" style="color: red; font-family: 'Gilroy', serif;">Франшиза</a>
+            </div>
+        </div>
+    {% endif %}
+{% endspaceless %}

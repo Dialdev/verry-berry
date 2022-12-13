@@ -1,0 +1,85 @@
+{% spaceless %}
+    <div class="s-lk__content">
+        <div class="form">
+            <div class="lk-settings">
+                <form class="lk-settings__item" action=""  id="form-settings">
+                    <div class="lk-title">Личные данные</div>
+                    <div class="form-box">
+                        <div class="form-box__item">
+                            <div class="form-box__half">
+                                <div class="form-group"><label>Ваше имя</label>
+                                    <input class="form-control" name="NAME" type="text" placeholder="Введите имя" value="{{ result.INFO.NAME }}">
+                                </div>
+                                <div class="form-group"><label>Ваша фамилия</label>
+                                    <input class="form-control" name="LAST_NAME" type="text" placeholder="Введите фамилию" value="{{ result.INFO.LAST_NAME }}">
+                                </div>
+                            </div>
+                            <div class="form-box__half">
+                                <div class="form-group">
+                                    <label>E-mail</label>
+                                    <input class="form-control" name="EMAIL" type="email" placeholder="Введите e-mail" value="{{ result.INFO.EMAIL }}">
+                                </div>
+                                <div class="form-group"><label>Телефон</label>
+                                    <input class="form-control" name="PERSONAL_PHONE" value="{{ result.INFO.PERSONAL_PHONE }}" type="tel" data-field="phone" placeholder="Введите номер телефона" minlength="11" required="required"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-box__item">
+                            <div class="form-box__half">
+                                <div class="form-group">
+                                    <label>Текущий пароль</label>
+                                    <input class="form-control" name="CURRENT_PASSWORD" type="password" placeholder="Введите пароль">
+                                    <div class="pass"></div>
+                                </div>
+                                <div class="form-group"><label>Повторите текущий пароль</label><input
+                                            class="form-control" name="OLD_PASSWORD" type="password" placeholder="Введите пароль">
+                                    <div class="pass"></div>
+                                </div>
+                            </div>
+                            <div class="form-box__half">
+                                <div class="form-group"><label>Новый пароль</label>
+                                    <input class="form-control" name="PASSWORD" type="password" placeholder="Введите пароль">
+                                    <div class="pass"></div>
+                                </div>
+                                <div class="form-group"><label>Повторите новый пароль</label>
+                                    <input class="form-control" name="CONFIRM_PASSWORD" type="password" placeholder="Введите пароль">
+                                    <div class="pass"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-move="lk-settings-get">
+                        <div class="form-submits form-submits_half">
+                            <button class="button button-border-gray" type="reset">ОТМЕНИТЬ ИЗМЕНЕНИЯ</button>
+                            <button class="button button-dark" type="submit">СОХРАНИТЬ ИЗМЕНЕНИЯ</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="lk-settings__item">
+                    <div class="lk-title">Подписки</div>
+                    <div class="form-box">
+                        <div class="form-box__item">
+                            <div class="form-switch-wrapper" id="subs">
+                                <div class="form-switch-wrapper__item">
+                                    <div class="form-switch-wrapper__title">Уведомления</div>
+                                    <div class="form-switch-wrapper__switch">
+                                        <input class="checkbox-switch change_sub" name="UF_NOTIFY" type="checkbox" id="lk-checkbox-1" {% if result.INFO.UF_NOTIFY>0 %}checked {% endif %}>
+                                        <label for="lk-checkbox-1"></label>
+                                    </div>
+                                </div>
+                                <div class="form-switch-wrapper__item">
+                                    <div class="form-switch-wrapper__title">Рекламная рассылка</div>
+                                    <div class="form-switch-wrapper__switch">
+                                        <input class="checkbox-switch change_sub" name="UF_SUBSCRIBE" type="checkbox" id="lk-checkbox-2" {% if result.INFO.UF_SUBSCRIBE>0 %}checked {% endif %}>
+                                        <label for="lk-checkbox-2"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-move="lk-settings-set"></div>
+        </div>
+    </div>
+{% endspaceless %}

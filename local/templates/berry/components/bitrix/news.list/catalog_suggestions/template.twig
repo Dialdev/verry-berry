@@ -1,0 +1,12 @@
+{% spaceless %}
+    {% if result['ITEMS'] %}
+        <div class="listIcons listIcons_catalog">
+            {% for item in result['ITEMS'] %}
+                <div class="listIcons__item" style="--color: #{{ item['PROPERTIES']['COLOR']['VALUE'] }}">
+                    <div class="listIcons__icon">{{ item['PREVIEW_TEXT'] }}</div>
+                    <div class="listIcons__title">{{ item['NAME'] }}</div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endspaceless %}

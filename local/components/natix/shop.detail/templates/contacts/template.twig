@@ -1,0 +1,42 @@
+{% spaceless %}
+    {% if result['shop'] %}
+        {% set shop = result['shop'] %}
+        
+        <div class="container">
+            <h1>Контакты</h1>
+            <div class="contactTop">
+                <div class="contactTop__item">
+                    {% if shop['PHONE'] %}
+                        <a class="contactTop__phone" href="tel:{{ shop['PHONE'] }}">{{ shop['PHONE'] }}</a>
+                    {% endif %}
+                    {% if shop['EMAIL'] %}
+                        <a class="contactTop__mail" href="mailto:{{ shop['EMAIL'] }}">{{ shop['EMAIL'] }}</a>
+                    {% endif %}
+                </div>
+                <div class="contactTop__item contactTop__item_workAddress">
+                    <div class="workTimeTitle">{{ shop['ADDRESS'] }}</div>
+                    {% if shop['SCHEDULE'] %}
+                        <div class="workTime workTime_contact">
+                            <div class="workTime__list">
+                                {{ shop['SCHEDULE'] }}
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+                <div class="contactTop__item">
+                    {% include 'natix:shop.detail:contacts:block_social' %}
+                </div>
+            </div>
+        </div>
+        <div class="mapY" id="contactMap" data-lat="{{ shop['GPS_N'] }}" data-lng="{{ shop['GPS_S'] }}" data-icon="iconPoint"></div>
+
+        {{ showComponent('natix:shop.images', 'contacts', {
+            'STORE_ID' : shop['STORE_ID'],
+        }) }}
+
+    {% else %}
+        <div class="container">
+            Для текущего местоположения не найден магазин для самовывоза
+        </div>
+    {% endif %}
+{% endspaceless %}
